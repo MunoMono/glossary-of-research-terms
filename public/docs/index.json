@@ -1,0 +1,902 @@
+[
+  {
+    "term": "Abductive reasoning",
+    "definition": "a process by which alternative frameworks are applied to data and theory, which are then redescribed and evaluated.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "A"
+  },
+  {
+    "term": "Abstraction",
+    "definition": "a statement that a thing is a member of a class of things or a class of things is a subclass of another class of things. Abstraction is one of seven principles for interpretivist case studies (Klein & Myers, 1999) and is the ability to abstract empirical findings to the theories used.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "A"
+  },
+  {
+    "term": "Archival science",
+    "definition": "encompasses theory, methodology and practice relating to records and archives. The field covers recordkeeping and archiving functions such as the creation, management, preservation, retrieval and use of records in and through time; the nature, form and structure of records and archives; the contexts in which records and archives are generated, managed, and used; the social and cultural environment of records; and the role of the record and the Archive in society.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "A"
+  },
+  {
+    "term": "Artefact",
+    "definition": "a human-made object that is built with the intent it will be useful in some way, or something that occurs as a result of a particular research or technological process that would not otherwise be present.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "A"
+  },
+  {
+    "term": "Autoethnography",
+    "definition": "is “research, writing, and method that connect the autobiographical and personal to the cultural and social” (Ellis, 2004, p. xix). It is about understanding the relationship between the self and others (Chang, 2008). See also Ethnography.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "A"
+  },
+  {
+    "term": "Bibliometrics",
+    "definition": "“the study of the quantitative aspects of the production, dissemination, and use of recorded information” (Tague-Sutcliffe, 1992, p. 1).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "B"
+  },
+  {
+    "term": "Boundary (design-science research)",
+    "definition": "the set of states and/or events that a theory or model is intended to explain or predict.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "B"
+  },
+  {
+    "term": "Case study",
+    "definition": "in-depth study of a single ‘case’, or comparative studies of multiple ‘cases’, generate rich pictures and insights that might be transferable to other cases. In “comparative archivistics” (Ketelaar, 1997), case studies and ethnographies are used to explore differences in recordkeeping cultures and practice.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Case study research",
+    "definition": "an “empirical enquiry that investigates a contemporary phenomenon within its real-life context, when the boundaries between phenomenon and context are clearly evident ... and it relies on multiple sources of evidence” (Yin, 2003, p. 13).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Causal variable",
+    "definition": "see Independent variable.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Classical scientific research",
+    "definition": "research that focusses on building and testing theories or obtaining a deep understanding of phenomena by using various kinds of formal hypotheses, generalisations and abstractions.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Closed system (design-science research)",
+    "definition": "a system that has no interaction with its environment.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Constant comparative analysis",
+    "definition": "as the process of data collection and analysis proceeds, a grounded theory researcher repetitively compares data with data, codes with codes, and data codes and categories with each other (Birks & Mills, 2011).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Construct",
+    "definition": "a concept that researchers create as a means of describing and representing some type of phenomena in the world.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Construct validity",
+    "definition": "extent to which concepts (constructs) being studied are defined appropriately and relevant measures are developed.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Constructivist",
+    "definition": "qualitative research paradigm which emphasises either the personal, subjective construction of reality and/or the social (or shared) construction of reality produced by humans acting together. The label used for the former is ‘personal constructivist’ and for the latter ‘social constructionist’. The umbrellatermis‘constructivist’.SeealsoInterpretevistandNaturalisticinquiry.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Constructivist grounded theory",
+    "definition": "application of constructivist approach to grounded theory. Constructivist grounded theory is explicitly not ‘objectivist’.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Critical realist",
+    "definition": "believes “that it is not easy to capture reality directly” as it can “easily become distorted or muddied” (Neuman, 2011, p. 92). A critical realist takes precautions to control the effect of people’s interpretations of reality. See also Critical realist ontology (under Ontology).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Critical theorists",
+    "definition": "theorists who aim, through the writing of value-laden texts, to liberate groups which are seen to be oppressed, e.g., women or certain racial groups, and to produce transformations in the social order.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Data",
+    "definition": "“discrete, objective facts or observations ... [without] meaning or value because of lack of context and interpretation” (Rowley & Hartley, 2008, p. 6).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Data archiving",
+    "definition": "a curation activity which ensures that data are properly selected and stored so that they can be accessed and so that their logical and physical integrity are maintained over time, including security and authenticity.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Data curation",
+    "definition": "managing and promoting the use of data from point of creation, to ensure availability for contemporary purpose, discovery and re-use. For dynamic datasetsthismaymeancontinuousenrichmentorupdating(Yakel,2007,p.).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Data management",
+    "definition": "the systematic process of planning and organising activities required to appropriately manage research data throughout its life cycle, curation, preservation and archiving.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Data preservation",
+    "definition": "archiving activity in which specific items of data are maintained over time so that they can still be accessed and understood through successive change and obsolescence of technologies.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Decompose (design-science research)",
+    "definition": "to break a thing up into its components. Each component will be related to at least one other component.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Deductive reasoning",
+    "definition": "begins with a generalisation and then moves to inferences about particular circumstances. See also Inductive reasoning.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Dependent variable",
+    "definition": "the factor which is measured to determine how it has responded to a particular treatment or cause. Sometimes called ‘effect variable’. See also Independent variable.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Descriptive statistics",
+    "definition": "are used to describe aspects of sets of quantitative data to enable interpretation and comparison.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Design-science research",
+    "definition": "research that seeks to build, evaluate, and theorise about artefacts.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Design-science theory",
+    "definition": "“shows the principles inherent in the design of an IS [information systems] artefact that accomplishes some end, based on knowledge of both IT and human behaviour” (Gregor and Jones, 2007, p. ). The theory is intended to account for the behaviour of some artefact.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Dialectics",
+    "definition": "argument and discussion that evaluates contradictory facts or ideas, or paradoxical processes, with a view to the resolution of contradictions.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Dialogical reasoning",
+    "definition": "one of seven principles for interpretivist case studies (Klein & Myers, 1999) requiring sensitivity to the contradictions that emerge between the theoretical preconceptions guiding the research design and the empirical findings with further cycles of iteration.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Diplomatics",
+    "definition": "body of techniques, theories and principles for analysing the form, function and genesis of documents with a particular view to establishing authenticity.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Discourse",
+    "definition": "describes written and spoken communications. The term is used in a range of ways, including to describe “the totality of codified linguistic usages attached to a given type of social practice” (Marks, 2001), e.g., legal discourse. ‘Discourse analysis’ explores the underlying meaning of the phenomenon under study, including its social implications.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "D"
+  },
+  {
+    "term": "Effect variable",
+    "definition": "see Dependent variable.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Element",
+    "definition": "an individual member or unit of a population.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Emic",
+    "definition": "insider views, which ethnographers/participant observers, particularly, aim to obtain. See also Etic.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Empirical",
+    "definition": "based on observation or experience.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Epistemology",
+    "definition": "the theory and nature of knowledge; how it is formed; ways of knowing.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Ethics",
+    "definition": "a set of moral principles; the rules of conduct recognised in a particular profession or area of human life (The new shorter Oxford dictionary, 1993, p. ).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Ethnography",
+    "definition": "the study and description of people in their everyday contexts. See also Autoethnography.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Ethnology",
+    "definition": "involves cross-cultural and comparative study of the origin of human cultures, including social structure, language, religion and technology, and social change, often using multiple pre-existing ethnographies (Geertz, 1973; Monaghan & Just, 2000).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Ethnomethodology",
+    "definition": "“is concerned with how people accomplish their everyday lives ... how everyday life is forged, hence socially constructed” (Adler & Adler, 1998, p. 99).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Etic",
+    "definition": "reliance on an outsider perspective, which occurs with most positivist research. See also Emic.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "External validity",
+    "definition": "refers to the generalisability of research findings, that is, the extent to which they can be generalised to other populations, settings or treatments. See also Internal validity.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "E"
+  },
+  {
+    "term": "Framework (research)",
+    "definition": "in the case of sciences and the humanities signifies assumptions, norms, values and traditions that create, perpetuate and institutionalise particular forms of knowledge within a particular field of study (Stanfield, 1998, p. ).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "F"
+  },
+  {
+    "term": "Generalisability",
+    "definition": "“the extent to which the findings and conclusions of one particular study can be applied to other similar situations or settings or the population at large” (Gilliland & McKemmish, 2004, p. ).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "G"
+  },
+  {
+    "term": "Generalisation",
+    "definition": "a statement that a set of things possess a common property.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "G"
+  },
+  {
+    "term": "Grounded theory",
+    "definition": "theory which is built from the ground upwards, that is from data observed and collected in the field.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "G"
+  },
+  {
+    "term": "Hermeneutics",
+    "definition": "an intellectual tradition concerned originally with the interpretation of texts but later of social life. In interpretivist case studies the hermeneutic cycle is a fundamental principle (Klein & Myers, 1999) and states that  Glossaryoftermsusedinresearch human understanding is based on the iterative sense making of the parts and the whole.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "H"
+  },
+  {
+    "term": "Heuristic search process",
+    "definition": "the search for a solution to a problem based on rules of thumb or trial-and-error processes.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "H"
+  },
+  {
+    "term": "Historiography",
+    "definition": "body of techniques, theories and principles of historical research and presentation involving a critical examination, evaluation, and selection of material from primary and secondary resources.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "H"
+  },
+  {
+    "term": "Homomorphic models",
+    "definition": "minimalist symbolic representations of key factors and relationships.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "H"
+  },
+  {
+    "term": "Hypotheses",
+    "definition": "specifically formulated and empirically testable statements which predict the relationship between one or more variables in a research study, e.g., the relationship between level of education and library use. In historical research, the hypotheses are used to guide the historian’s thinking, analysis and findings, and do not necessarily have the same level of rigour as scientific hypotheses. See also Null hypothesis.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "H"
+  },
+  {
+    "term": "Hypothetico-deductive case study (theory-testing)",
+    "definition": "aimed to test theory, where propositions are derived from an existing theory and then tested.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "H"
+  },
+  {
+    "term": "Idiographic",
+    "definition": "“pertaining to the intensive ... study of an individual case, [such] as a personality or social situation” (Macquarie dictionary, 1987, p. ). Antonym of Nomothetic.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Independent variable",
+    "definition": "the factor manipulated by the researcher to see what impact it has on other variables. Sometime called ‘causal variable’.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Inductive case study (theory-building)",
+    "definition": "aims to describe and develop theory. It is used to provide evidence for hypothesis generation and for exploration of areas where existing knowledge is limited.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Inductive reasoning",
+    "definition": "begins with intense investigation of a particular instance or instances, and concludes with general statements or principles. See also Deductive reasoning.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Inferential statistics",
+    "definition": "used to analyse data in order to draw inferences.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Information systems",
+    "definition": "a discipline that involves the study of people, procedures, data, software, and hardware that are used to gather and analyse useful information in organisations (Jessup & Valacich, 2008).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Informetrics",
+    "definition": "“the study [and analysis] of the quantitative aspects of information in any form, not just records or bibliographies, and in any social group, not just scientists” (Tague-Sutcliffe, 1992, p. 1).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Instantiation",
+    "definition": "a hardware/software system that researchers produce using some method to implement a construct or model.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Internal validity",
+    "definition": "the extent to which a research instrument measures what it is designed to measure. In experimental design: pertains to the conclusiveness of results, that is, the confidence that observed results are attributable to the impact of an independent variable, and not cause by other unknown factors. See also External validity.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Interpretivist or interpretive",
+    "definition": "from the research tradition, interpretivism, which emphasises natural settings together with individual and group perceptions of events and interactions within those settings. Focus is on inductive reasoning. Examples of interpretivist paradigms are constructivism and phenomenology. See also Constructivist, Phenomenology and Naturalistic inquiry.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Interval data",
+    "definition": "measures with order and with equal intervals on a scale, e.g., IQ test scores",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Isomorphic models",
+    "definition": "holistic re-creations of phenomena under study, or ‘framing’ of actual whole phenomena for the purposes of research.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Iterative",
+    "definition": "the interweaving of various elements in the research process, where the development of one influences the other, e.g., the interweaving of data collection and the elaboration of theory as researchers move backwards and forwards in a qualitative study.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "I"
+  },
+  {
+    "term": "Likert scale",
+    "definition": "a rating scale (usually five-point) frequently used in quantitative research, on which respondents are asked to rate their preferences or the frequencies of their activities.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "L"
+  },
+  {
+    "term": "Mean",
+    "definition": "determined by the sum of the values in the distribution divided by the number of values. The mean is used for interval scale data.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Median",
+    "definition": "the point on the scale below which half of the values lie.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Metacognition",
+    "definition": "knowing about knowing; particularly individuals’ awareness of their own cognitive processes.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Metadata",
+    "definition": "most commonly described as data about data (including its structure, content, rights, creation and preservation actions, relationships, context). Metadata can be represented as a catalogue record, a set of business rules, the data dictionary of a database, index entries, or in metatags such as Dublin Core.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Meta-theory/Meta-theorising",
+    "definition": "concerned with attempts to make sense of different theories that claim to explain phenomena within in a particular disciplinary domain. Meta-theorising examines assumptions behind existing theories in order to achieve a more profound understanding of these theories or different theoretical perspectives.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Method (design-science research)",
+    "definition": "a set of actions (the actions are often ordered) that is used to achieve some outcome (a product or service).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Method",
+    "definition": "see Research method.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Methodology",
+    "definition": "theory of method; a set of principles of methods. Methodology is the entire framework or design of the research: the choice of paradigm (philosophical underpinnings), methods and tools or techniques to explore research questions and make knowledge claims.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Mode",
+    "definition": "the value with the most frequent occurrence.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Model",
+    "definition": "a conceptual object that comprises constructs and associations among these constructs as a way to describe and represent some subset of real-world phenomena.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Multiple realities",
+    "definition": "see Social reality.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "M"
+  },
+  {
+    "term": "Narrative analysis",
+    "definition": "body of techniques for examining how narrative or rhetorical tropes are used in documents to ‘tell stories’ or advance particular perspectives or arguments.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Naturalistic inquiry",
+    "definition": "a complex term, which at its simplest level means the conduct of research in a natural setting. See also Constructivist and Interpretevist.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Nominal data",
+    "definition": "measures without order, e.g., gender. (Also known as categorical data.)",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Nominalist",
+    "definition": "see Nominalist ontology under Ontology",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Nomological network",
+    "definition": "a network of related constructs that is intended to account (explain and/or predict) for some phenomena. See also Theory.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Nomothetic",
+    "definition": "“pertaining to the search for general laws” (Macquarie dictionary, 1987, p. 1158). Antonym of Idiographic.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Non-probability samples",
+    "definition": "samples which do not meet the standards of probability samples where the probability or likelihood of the inclusion of each element of the populations can be specified.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Norm",
+    "definition": "establishing a norm (that is, a standard or pattern).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Null hypothesis",
+    "definition": "“hypothesis that asserts there is no real relationship between or among the variables in question. It involves the supposition that chance, rather than an identifiable cause has produced some observable result” (Powell, 1997, p. 29). See also Hypothesis.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Ontology",
+    "definition": "the science or study of being. In research terminology ontology is the existence and nature of social reality. It is also used to denote a set of concepts and their structural inter-relationships in a particular context.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "O"
+  },
+  {
+    "term": "Critical realist ontology",
+    "definition": "belief that a ‘real world’ exists but that “it is not easy to capture reality directly” as it can “easily become distorted or muddied” (Neuman, 2011, p. 92).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "C"
+  },
+  {
+    "term": "Nominalist ontology",
+    "definition": "belief that experience of the so-called real world “is always occurring through a lens or scheme of interpretations and inner subjectivisty” (Neuman, 2011, p. 92).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "N"
+  },
+  {
+    "term": "Realist ontology",
+    "definition": "belief that “the ‘real world’ exists independently of humans and their interpretations of it” (Neuman, 2011, p. 92).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Open system (design-science research)",
+    "definition": "a system that interacts with its environment.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "O"
+  },
+  {
+    "term": "Ordinal data",
+    "definition": "measures with order or rank. The categories may be numeric but equal intervals between measurement scores on the scale are not established, e.g., activity levels of high, medium, low.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "O"
+  },
+  {
+    "term": "Outliers (data)",
+    "definition": "data outside expected ranges. They may be genuine values that highlight an unusual situation or might be erroneous data values that could distort the analysis.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "O"
+  },
+  {
+    "term": "Paradigm",
+    "definition": "a set of underlying principles which provides a framework for understanding particular phenomena.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Paradigm incommensurability",
+    "definition": "the contention that paradigms are mutually exclusive because, although they may blur at the edges, they are based on competing and irreconcilable assumptions.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Participant observation",
+    "definition": "often used as an alternative term to ‘ethnography’ where researchers also undertake fieldwork to observe participants. Various forms and levels of participant observation are described in Chapter 17 Observation.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Participatory action research",
+    "definition": "commonly carried out in communities or groups that are trying to overcome negative or oppressive conditions, i.e., it emphasises “political aspects of knowledge production” (Reason, 1998, p. ). Reflexivity is important, as with all action research. The term may be used differently according to the philosophical bent of the researcher.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Pattern matching",
+    "definition": "used to compare empirical data collected from qualitative data with outcomes predicted by propositions.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Performance measurement",
+    "definition": "where output measures are used to determine what has been accomplished by specific programs, services or resources.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Phenomenography",
+    "definition": "research approach which attempts to find the distinctly different ways of seeing particular experiences by groups of individuals.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Phenomenology",
+    "definition": "“aims to capture the richness of experience, the fullness of all the ways in which a person experiences and describes the phenomena of interest” (Marton & Booth, 1997, p. ).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Pluralism",
+    "definition": "belief that researchers do not have to accept existing or singular paradigms but can develop new ones by drawing on the strengths and weaknesses of the old ones, or adopt alternative, co-existing paradigms.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Population",
+    "definition": "a complete set of all elements (e.g., people, institutions) which have at least one characteristic in common and which a researcher wishes to study.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Population stratum",
+    "definition": "a subdivision of a population based on one or more specifications e.g., all Victorian academic librarians under the age of thirty.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Positivist",
+    "definition": "from the research tradition, positivism, which adheres to the scientific mode of enquiry and emphasises deductive reasoning, measurement, quantitative data and nomothetic knowledge claims.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Postmodern",
+    "definition": "complex term defying succinct definition. Postmodernists are particularly concerned with issues of ‘intersubjectivity’, i.e., how researcher and researched affect each other (Glesne & Peshkin, 1992, p. 10). An author is regarded as only one contributor. Discussed widely in Denzin & Lincoln handbooks. Postmodern paradigms emphasise flexibility and reflexivity.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Post-positivist",
+    "definition": "belief that reality must be subjected to the widest possible critical examination and that qualitative methods are important in achieving this goal.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Probability sampling",
+    "definition": "the probability or likelihood of including each element of the population can be specified. In true probability sampling, each element must have an equal and independent chance of being included in the sample.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Problematisation",
+    "definition": "a process of identifying and challenging the assumptions underlying existing theories and findings (Alvesson & Sandberg, 2011).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Propositions",
+    "definition": "broad statements drawn from theory or “a theoretical statement about the relationship between two or more variables” (Neuman, 2011, p. 68).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Prototype",
+    "definition": "a working version or model of an application system (Pratt & Adamski, 1991, p. ).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Purposeful/purposive sample",
+    "definition": "selected to suit the purposes of a study (cid:1) according to what is considered relevant and important.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "P"
+  },
+  {
+    "term": "Qualitative data",
+    "definition": "data in the form of words but may include other forms, including images. (Note that the description of ‘qualitative research’, rather than ‘data’, is complex. It is discussed in details in various chapters of the book.)",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "Q"
+  },
+  {
+    "term": "Quantitative data",
+    "definition": "data in the form of numbers or numerical concepts. (Note that the description of ‘quantitative research’, rather than ‘data’, is complex. It is discussed in details in various chapters of the book.)",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "Q"
+  },
+  {
+    "term": "Random sample",
+    "definition": "each element of a population has an equal and independent opportunity of being selected in a sample.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Ratio data",
+    "definition": "measures with order, equal intervals on a scale, and a true zero point (a point at which the trait being measured is totally absent), e.g., total computer access time.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Realist",
+    "definition": "See Realist ontology under Ontology.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Reality",
+    "definition": "See Social reality.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Relativism",
+    "definition": "the notion there is no absolute truth and that truth is contingent on the observer, and the time and place of the observation.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Reliability",
+    "definition": "concerned with obtaining consistent, stable research results capable of replication.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Replication",
+    "definition": "involves repeating an empirical study, with different participants and in different settings. When using multiple-case studies, each case should be carefully selected so that it either predicts similar outcomes across cases with similar contexts (literal replication), or produces contrasting findings based on theoretical conditions (theoretical replication) to test theory.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Research data",
+    "definition": "can take many forms depending on the research problem being addressed and the discipline of the researcher. Data are generally gathered or produced by researchers through observations, experiments or by computer modelling. See also Data.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Research design",
+    "definition": "encompasses identification of the research problem, goals and desired outcomes, and selection of methodology, including the choice of paradigm (philosophical underpinnings), methods and tools or techniques.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Research method",
+    "definition": "provides a major component of the design for undertaking research. Research methods are underpinned with theoretical explanation of their value and use. Techniques for data gathering and sample selection, as well as processing and interpreting data, are usually included as part the research method, e.g., questionnaires are commonly used in the research method ‘survey’ but can also be used in other methods, e.g., ‘case study’ or ‘experimental design’. (Note that this is the definition employed in this book. Others may adopt different perspectives.)",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Research technique",
+    "definition": "a procedure or tool for undertaking research processes, e.g., selecting samples, collecting and analysing data.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Revelatory knowledge",
+    "definition": "allows us to ‘see’ phenomena in the world that previously we did not ‘see’.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "R"
+  },
+  {
+    "term": "Sample",
+    "definition": "a selection of elements from the total population to be studied. A sample is any part of the population, whether it is representative or not.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Sampling error",
+    "definition": "the degree to which the sample characteristics approximate the characteristics of the population (in probability sampling).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Sampling frame",
+    "definition": "the list of elements from which a sample is selected.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Saturation",
+    "definition": "a term that determines when a researcher should stop adding cases (Eisenhardt, 1989), which is the point at which there is no more new information is derived and incremental learning is minimal.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Social reality",
+    "definition": "how the real world is perceived. The positivist view is that an ordered and stable reality exists out there waiting to be discovered. To interpretivists, reality is personally and/or socially constructed, fluid and fragile, and exists as people experience it and assign meaning to it. The result is ‘multiple realities’.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Sociometrics",
+    "definition": "a quantitative method for studying social relationships, networks and patterns of interactions, and revealing hidden structures such as invisible colleges, subgroups, alliances, ideological agreement, and dominant individuals (Moreno, 1951).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Solution transition path (design-science research)",
+    "definition": "the path chosen by a problem solver from the initial problem-solving state through intermediate problem- solving states to the goal or end state.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "State space (design-science research)",
+    "definition": "the space of all possible states that a thing might traverse.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Statistical significance",
+    "definition": "relates to the level of significance which is the point which the researcher uses to determine whether the observed difference or relationship is too large to be attributed to chance.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Suspicion",
+    "definition": "one of seven principles for interpretivist case studies (Klein & Myers, 1999) and requires sensitivity to possible biases and “systematic distortions” observed in the stories of the participants.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "S"
+  },
+  {
+    "term": "Taxonomy",
+    "definition": "(scientific) classification.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Technique",
+    "definition": "see Research technique.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Theoretical drive",
+    "definition": "is determined by the component (usually positivist/ quantitative or interpretivist/qualitative) which will play the more important part in answering the research questions (Morse, 2003).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Theoretical sample",
+    "definition": "the process of selecting “incidents, slices of life, time periods, or people on the basis of their potential manifestation or representation of important theoretical constructs” (Patton, 2002, p. ).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Theoretical saturation",
+    "definition": "the idea (in grounded theory) that the researcher examines, compares and interprets all previous codes, and produces a number of theoretical codes, until no more theoretical codes can be found.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Theory",
+    "definition": "a viewpoint or perspective which is explanatory. A social science theory is “a systematic explanation of the observed facts and laws that relate to a specific",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Transformative knowledge",
+    "definition": "allows us to ‘see’ phenomena in ways that are different from those we have used previously to ‘see’ the phenomena.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Transition path (design-science research)",
+    "definition": "a path from an initial problem-solving state through immediate problem-solving states to a goal or end state.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Triangulation",
+    "definition": "involves the use of multiple methods of data collection, multiple sources of data, and theoretical constructs.",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "T"
+  },
+  {
+    "term": "Unit of analysis",
+    "definition": "the ‘who’ or the ‘what’ that is analysed and researched. It defines the scope and boundaries of a case study (e.g., individual, group, organisation, information systems project).",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "U"
+  },
+  {
+    "term": "Validity",
+    "definition": "see Internal validity, External validity, and Construct validity",
+    "source": "Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.",
+    "letter": "V"
+  }
+]

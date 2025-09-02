@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Glossary of Research Terms
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React + Vite + Carbon Design System app to browse and search research glossary terms.  
+Includes terms scraped from *Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts (2nd edn.)* plus custom user entries.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Getting Started
 
-### `npm start`
+### Prerequisites
+- Node.js >= 18
+- npm >= 9
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install dependencies
+```bash
+npm install
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Run locally
+```bash
+npm run dev
+```
+The app will open at [http://localhost:5173/glossary-of-research-terms](http://localhost:5173/glossary-of-research-terms).
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Build
+```bash
+npm run build
+```
 
-### `npm run build`
+Output goes to `dist/`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌐 Deployment (GitHub Pages)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is configured to deploy via GitHub Actions → `gh-pages` branch.
 
-### `npm run eject`
+### Steps
+1. Push your code to `main`.
+2. Enable GitHub Pages:
+   - Go to your repo → **Settings → Pages**.
+   - Select **Deploy from branch**.
+   - Choose branch = `gh-pages`, folder = `/ (root)`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Your site will be available at:
+```
+https://<your-username>.github.io/glossary-of-research-terms/
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ GitHub Actions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The workflow is already configured to:
+- Install dependencies
+- Build with Vite
+- Deploy to `gh-pages`
 
-## Learn More
+Add a `.github/workflows/deploy.yml` with:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```yaml
+name: Deploy Glossary to GitHub Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+on:
+  push:
+    branches:
+      - main
 
-### Code Splitting
+permissions:
+  contents: write
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm install
+      - run: npm run build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✨ Features
+- Browse glossary A–Z
+- Filter/search terms live
+- Dedicated per-letter pages with breadcrumbs
+- Highlighting and custom tags for added terms
+- Dark/light theme toggle via Carbon
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📜 License
+MIT
