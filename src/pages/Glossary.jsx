@@ -74,7 +74,7 @@ export default function Glossary() {
   return (
     <Grid className="cds--grid cds--grid--narrow" id="top">
       <Column lg={12} md={8} sm={4}>
-        <h2 className="home-heading">Glossary of research Terms</h2>
+        <h2 className="home-heading">Glossary of research terms</h2>
         <p className="cds--type-helper-text home-meta">
           {total} entries · from <code>public/docs</code>
         </p>

@@ -1,103 +1,106 @@
 # Glossary of Research Terms
 
-A React + Vite + Carbon Design System app to browse and search research glossary terms.  
-Includes terms scraped from *Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts (2nd edn.)* plus custom user entries.
+A live, browsable **glossary site** powered by **React, Vite, and IBM Carbon Design System**.  
+Includes terms scraped from *Williamson, K. and Johanson, G. (eds) (2018) Research Methods: Information, Systems, and Contexts. 2nd edn.* plus user-added custom entries.
+
+Live version: [https://munomono.github.io/glossary-of-research-terms/](https://munomono.github.io/glossary-of-research-terms/)
 
 ---
 
-## 🚀 Getting Started
+## 📚 About
 
-### Prerequisites
-- Node.js >= 18
-- npm >= 9
+This repository provides an interactive glossary of research methods and concepts.  
+Official terms are extracted from the Williamson & Johanson (2018) glossary, and additional custom terms can be added by the user (clearly tagged in the UI).
 
-### Install dependencies
-```bash
-npm install
-```
+- **Data sources**: 
+  - `public/docs/index.json` (scraped official terms)  
+  - `public/docs/custom.json` (user-added entries)  
+- **Framework**: React + Vite  
+- **UI**: IBM Carbon Design System (`@carbon/react`, `@carbon/styles`)  
+- **Features**:
+  - A–Z navigation pills with counts
+  - Clean entry list using semantic definition lists (<dl><dt><dd>)
+  - Search & filter across all terms
+  - Dedicated per-letter pages with breadcrumbs
+  - Highlighting for search matches
+  - Custom entries marked with purple tags
+  - Light/dark theme toggle
+  - Deployable on GitHub Pages
+
+---
+
+## 🚀 Usage
+
+### View online
+[https://munomono.github.io/glossary-of-research-terms/](https://munomono.github.io/glossary-of-research-terms/)
 
 ### Run locally
+
+```bash
+git clone https://github.com/MunoMono/glossary-of-research-terms.git
+cd glossary-of-research-terms
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173/glossary-of-research-terms](http://localhost:5173/glossary-of-research-terms).
+
+### Build for production
+
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+## 📝 Workflow Cheatsheet
+
+### 1. Add a new custom term
+
+```bash
+# edit custom.json manually, or create a helper script later
+```
+
+- Custom entries are stored in `public/docs/custom.json`.  
+- They appear alongside official glossary terms with a purple “Custom” tag.
+
+### 2. Develop locally
+
 ```bash
 npm run dev
 ```
-The app will open at [http://localhost:5173/glossary-of-research-terms](http://localhost:5173/glossary-of-research-terms).
 
----
+- Starts dev server.  
+- Open [http://localhost:5173/glossary-of-research-terms](http://localhost:5173/glossary-of-research-terms).  
 
-## 📦 Build
+### 3. Deploy to GitHub Pages
+
 ```bash
-npm run build
+./scripts/push-deploy.sh "deploy: latest glossary"
 ```
 
-Output goes to `dist/`.
+- Builds `index.json` (if needed)  
+- Builds site into `dist/`  
+- Publishes with `.nojekyll` to `gh-pages`  
 
 ---
 
-## 🌐 Deployment (GitHub Pages)
+## 🛠 Development
 
-This project is configured to deploy via GitHub Actions → `gh-pages` branch.
+Key source files:
 
-### Steps
-1. Push your code to `main`.
-2. Enable GitHub Pages:
-   - Go to your repo → **Settings → Pages**.
-   - Select **Deploy from branch**.
-   - Choose branch = `gh-pages`, folder = `/ (root)`.
-
-Your site will be available at:
-```
-https://<your-username>.github.io/glossary-of-research-terms/
-```
+- `src/App.jsx` — main app & router
+- `src/pages/Glossary.jsx` — A–Z entry list, search, and per-letter links
+- `src/pages/Letter.jsx` — dedicated letter page with breadcrumb navigation
+- `scripts/pdf_to_json.py` — parses Williamson & Johanson glossary PDF into JSON
+- `public/docs/index.json` — scraped official glossary entries
+- `public/docs/custom.json` — user-added custom entries
+- `src/styles/index.scss` — Carbon + global overrides
 
 ---
 
-## ⚙️ GitHub Actions
+## 🔖 License
 
-The workflow is already configured to:
-- Install dependencies
-- Build with Vite
-- Deploy to `gh-pages`
-
-Add a `.github/workflows/deploy.yml` with:
-
-```yaml
-name: Deploy Glossary to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm install
-      - run: npm run build
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
-```
-
----
-
-## ✨ Features
-- Browse glossary A–Z
-- Filter/search terms live
-- Dedicated per-letter pages with breadcrumbs
-- Highlighting and custom tags for added terms
-- Dark/light theme toggle via Carbon
-
----
-
-## 📜 License
-MIT
+- Glossary data: from Williamson & Johanson (2018), academic fair use  
+- Application code + configs: [MIT](./LICENSE)  
