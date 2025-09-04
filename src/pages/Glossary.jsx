@@ -1,4 +1,3 @@
-// src/pages/Glossary.jsx
 import React, { useEffect, useMemo, useState } from "react";
 import {
   Grid,
@@ -30,6 +29,7 @@ function highlight(text, query) {
 export default function Glossary() {
   const [entries, setEntries] = useState([]);
   const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("All"); // All | ML | Custom
 
   useEffect(() => {
     Promise.all([
@@ -39,12 +39,29 @@ export default function Glossary() {
       fetch("/glossary-of-research-terms/docs/custom.json").then((r) =>
         r.ok ? r.json() : []
       ),
+      fetch("/glossary-of-research-terms/docs/ml.json").then((r) =>
+        r.ok ? r.json() : []
+      ),
     ])
-      .then(([official, custom]) => {
+      .then(([official, custom, ml]) => {
+        const addMeta = (arr, kind) =>
+          (arr || []).map((e) => ({
+            ...e,
+            // kind: 'Index' | 'Research project' | 'Machine learning'
+            kind:
+              kind === "index"
+                ? "Index"
+                : kind === "custom"
+                ? "Research project"
+                : "Machine learning",
+          }));
+
         const combined = [
-          ...(official || []).map((e) => ({ ...e, custom: false })),
-          ...(custom || []).map((e) => ({ ...e, custom: true })),
+          ...addMeta(official, "index"),
+          ...addMeta(custom, "custom"),
+          ...addMeta(ml, "ml"),
         ];
+
         setEntries(combined);
       })
       .catch((e) => console.error("Failed to load glossary data", e));
@@ -52,7 +69,8 @@ export default function Glossary() {
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  const filteredEntries = useMemo(() => {
+  // filter by search
+  const searchFiltered = useMemo(() => {
     if (!query.trim()) return entries;
     const q = query.toLowerCase();
     return entries.filter((e) =>
@@ -60,6 +78,23 @@ export default function Glossary() {
     );
   }, [entries, query]);
 
+  // filter by category pill
+  const filteredEntries = useMemo(() => {
+    if (category === "All") return searchFiltered;
+    return searchFiltered.filter((e) => e.kind === category);
+  }, [searchFiltered, category]);
+
+  // counts for category pills (respect current search so counts feel responsive)
+  const countsByKind = useMemo(() => {
+    const base = { All: searchFiltered.length, "Machine learning": 0, "Research project": 0 };
+    for (const e of searchFiltered) {
+      if (e.kind === "Machine learning") base["Machine learning"]++;
+      else if (e.kind === "Research project") base["Research project"]++;
+    }
+    return base;
+  }, [searchFiltered]);
+
+  // group by first letter (after all filtering)
   const grouped = useMemo(() => {
     return filteredEntries.reduce((acc, e) => {
       const L = e.term?.[0]?.toUpperCase();
@@ -83,7 +118,31 @@ export default function Glossary() {
           <SearchBox query={query} setQuery={setQuery} />
         </div>
 
-        <div className="pill-row">
+        {/* Category pills */}
+        <div className="pill-row" style={{ marginTop: "0.5rem" }}>
+          {[
+            { label: "All", key: "All" },
+            { label: "Machine learning", key: "Machine learning" },
+            { label: "Research project", key: "Research project" },
+          ].map((p) => (
+            <button
+              key={p.key}
+              className={`pill ${category === p.key ? "active" : ""}`}
+              onClick={() => setCategory(p.key)}
+              type="button"
+              style={{ cursor: "pointer" }}
+              aria-pressed={category === p.key}
+            >
+              {p.label}{" "}
+              <Tag type={category === p.key ? "purple" : "gray"}>
+                {countsByKind[p.key] ?? 0}
+              </Tag>
+            </button>
+          ))}
+        </div>
+
+        {/* A–Z pills */}
+        <div className="pill-row" style={{ marginTop: "0.75rem" }}>
           {letters.map((L) => (
             <Link className="pill" key={L} to={`/letter/${L}`}>
               {L} <Tag type="gray">{(grouped[L] || []).length}</Tag>
@@ -102,12 +161,17 @@ export default function Glossary() {
                 </h3>
                 <dl>
                   {items.map((e) => (
-                    <React.Fragment key={e.term}>
+                    <React.Fragment key={`${e.term}-${e.kind}`}>
                       <dt>
                         {highlight(e.term, query)}
-                        {e.custom && (
+                        {e.kind === "Machine learning" && (
+                          <Tag type="green" style={{ marginLeft: "0.5rem" }}>
+                            Machine learning
+                          </Tag>
+                        )}
+                        {e.kind === "Research project" && (
                           <Tag type="purple" style={{ marginLeft: "0.5rem" }}>
-                            Custom
+                            Research project
                           </Tag>
                         )}
                       </dt>
