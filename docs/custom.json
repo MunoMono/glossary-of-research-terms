@@ -1,0 +1,26 @@
+[
+  {
+    "term": "Inference",
+    "definition": "the process of drawing conclusions about populations, relationships, or causal effects based on observations from samples or empirical data. inference involves reasoning beyond the immediate evidence and is central to hypothesis testing and theory development.",
+    "source": "Custom entry (user-defined)",
+    "letter": "I"
+  },
+  {
+    "term": "Wroughting and Wrighting",
+    "definition": "bruce archer’s phrase for a ‘third area’ of human knowing, alongside literacy and numeracy — the epistemology of making and doing in design. wroughting refers to knowing how things are brought about (technology), and wrighting to knowing how to do it (craftsmanship). together they frame design as a distinct mode of knowledge, comparable in scope to science and the humanities.",
+    "source": "Bruce Archer, Time for a Revolution in Art and Design Education, RCA Papers No. 6, 1978",
+    "letter": "W"
+  },
+  {
+    "term": "Black box",
+    "definition": "a system treated only by its inputs and outputs while its inner workings are hidden or ignored. in cybernetics, a black box is a situation where the observer has incomplete access to the system’s internal structure (pask). in science & technology studies, “blackboxing” names how successful technical work becomes invisible so only i/o are attended to (latour). in contemporary ai/ml, complex models—especially deep nets—are often described as black-box models because their decision processes are opaque, motivating interpretability and explainability research.",
+    "source": "G. Pask, “An Approach to Cybernetics,” 1961; B. Latour, Science in Action, 1987; C. Rudin, ‘Stop Explaining Black Box Machine Learning Models,’ 2019; V. Hassija et al., ‘Interpreting Black-Box Models,’ 2024",
+    "letter": "B"
+  },
+  {
+    "term": "Actor–network theory (ANT)",
+    "definition": "a sociotechnical approach developed in science and technology studies (sts) that treats both humans and nonhumans (machines, texts, institutions, technologies) as 'actors' in a network. rather than explaining outcomes solely by social forces or technical properties, ant follows how heterogeneous actors form associations, stabilize, and produce effects. bruno latour, michel callon, and john law emphasized that knowledge, power, and technology emerge from these networks, not from isolated human intentions.",
+    "source": "B. Latour, Science in Action (1987); M. Callon, 'Some Elements of a Sociology of Translation' (1986); J. Law, 'Notes on the Theory of the Actor-Network' (1992)",
+    "letter": "A"
+  }
+]
