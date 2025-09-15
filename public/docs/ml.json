@@ -12,6 +12,42 @@
     "letter": "A"
   },
   {
+    "term": "AI red teaming",
+    "definition": "structured, adversarial testing of models and systems to uncover unsafe behaviors and policy violations, often advocated alongside safe-harbor evaluation norms.",
+    "source": "ACM DL—Position: a safe harbor for AI evaluation and red teaming (2024)",
+    "letter": "A"
+  },
+  {
+    "term": "Algorithm",
+    "definition": "a sequence of rules that a computer follows to complete a task — it takes an input, for example, from a data set, then performs a test or calculation on it and generates an output. algorithms can be used in this way to spot patterns in data and make predictions.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "A"
+  },
+  {
+    "term": "Algorithmic bias",
+    "definition": "decision-making errors or unfair outcomes that can arise from problems with an algorithm’s processing of data, or flaws and biases in the underlying data itself. a bias can result in an algorithm inadvertently privileging or disadvantaging one group of users over another group. examples include customers being treated differently because of systemic prejudices around race, gender, sexuality, disability, or ethnicity.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "A"
+  },
+  {
+    "term": "Alignment",
+    "definition": "an area of research responsible for ensuring that artificial general intelligence — or so-called god-like ai — systems have goals that align with human values. for example, alignment researchers have helped to train ai models to avoid answering questions about how to self-harm and how to use bigoted language.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "A"
+  },
+  {
+    "term": "Artificial general intelligence",
+    "definition": "a computer system capable of generating new scientific knowledge and performing any task that humans can. it would enable the creation of a superintelligent computer that learns and develops autonomously, understands its environment without the need for supervision, and becomes capable of transforming the world around it.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "A"
+  },
+  {
+    "term": "Artificial intelligence (AI)",
+    "definition": "the science of enabling machines to perform tasks that would previously have required human brainpower — for example, reasoning, decision-making, differentiating words and images; learning from mistakes, predicting outcomes, problem solving. it involves the use of computers to reproduce or undertake such actions, often at a higher speed and accuracy than previously achieved.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "A"
+  },
+  {
     "term": "Base model",
     "definition": "a pre-trained model that can serve as the starting point for fine-tuning to address specific tasks or applications.",
     "source": "Google machine learning glossary",
@@ -30,6 +66,12 @@
     "letter": "B"
   },
   {
+    "term": "Big data",
+    "definition": "very large data sets that may be analysed computationally to reveal patterns, trends, and associations. businesses may use analysis of big data to identify common human behaviours, transactions, and interactions.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "B"
+  },
+  {
     "term": "Black box model",
     "definition": "a model whose reasoning is difficult or impossible for humans to understand. humans can observe input and output but not the internal process. most deep models and large language models are considered black boxes.",
     "source": "Google machine learning glossary",
@@ -42,10 +84,46 @@
     "letter": "C"
   },
   {
+    "term": "Chatbot",
+    "definition": "a software application that can respond to text questions and mimic human conversation, by analysing text and predicting the answer that is required. chatbots are mostly used as virtual assistants on customer service websites, but generative ai has enabled them to be used to create different forms of writing.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "C"
+  },
+  {
+    "term": "ChatGPT",
+    "definition": "a natural language processing chatbot driven by ai technology developed by openai. chatgpt is based on a language-based model that the developer fine tunes with help from user feedback. in response to text-based questions and prompts describing the type of written output required, the chatbot can compose articles and essays, write emails, tell creative stories, and generate programming code.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "C"
+  },
+  {
+    "term": "Compute",
+    "definition": "the computational power required for ai systems to perform tasks, such as processing data, training machine learning models, and making predictions — measured in floating-point operations per second, or flops.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "C"
+  },
+  {
+    "term": "Computer vision",
+    "definition": "a field of research that uses computers to obtain useful information from digital images or videos. applications include object recognition; facial recognition; medical imaging; navigation; video surveillance. it uses machine learning models that can analyse and distinguish different images based on their attributes.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "C"
+  },
+  {
     "term": "Contextualized language embedding",
     "definition": "an embedding that captures syntax, semantics, and context. for example, unlike older embeddings, contextualized embeddings recognize that cow can sometimes mean either cow or bull.",
     "source": "Google machine learning glossary",
     "letter": "C"
+  },
+  {
+    "term": "Counterfactual explanation",
+    "definition": "an explanation that shows minimal changes to an input that would alter a model’s decision, supporting transparency and user recourse.",
+    "source": "ACM DL—Counterfactual explanations and algorithmic recourses for machine learning (2025); graph counterfactual explanations survey (2023)",
+    "letter": "C"
+  },
+  {
+    "term": "Dall-E",
+    "definition": "a deep-learning model developed by openai that can generate digital images from text-based natural language descriptions, called prompts, which are input by users.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "D"
   },
   {
     "term": "Data analysis",
@@ -54,10 +132,58 @@
     "letter": "D"
   },
   {
+    "term": "Data science",
+    "definition": "research involving the processing of large amounts of data in order to identify patterns, spot trends and outliers, and provide insights into real-world problems.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "D"
+  },
+  {
+    "term": "Deep learning (DL)",
+    "definition": "a subset of machine learning that can be used to solve complex problems, such as speech recognition or image classification. unlike machine learning, which requires human input to understand the data and learn from it, dl can ingest unstructured data in a raw form — from text, music or video — and distinguish the difference between different categories of data. dl models run on software called neural networks, modelled on the human brain.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "D"
+  },
+  {
     "term": "Deep model",
     "definition": "a neural network containing more than one hidden layer. also called a deep neural network. contrast with wide model.",
     "source": "Google machine learning glossary",
     "letter": "D"
+  },
+  {
+    "term": "Deepfake",
+    "definition": "synthetic audio, video or imagery that can convincingly represent a real person, or create a realistic impression of a person who has never existed. created by machine learning algorithms, deepfakes can make real people appear to say and do whatever the creators wish.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "D"
+  },
+  {
+    "term": "Differential privacy",
+    "definition": "a formal privacy framework that bounds what can be learned about any individual in a dataset by injecting calibrated randomness into computations.",
+    "source": "ACM DL—Information-theoretic approaches to differential privacy (2023); a survey on differential privacy for unstructured data (2022)",
+    "letter": "D"
+  },
+  {
+    "term": "Diffusion models",
+    "definition": "generative models that learn to iteratively denoise samples from noise, enabling high-fidelity synthesis for images, video, and other modalities.",
+    "source": "ACM DL—Diffusion models: a comprehensive survey (ACM Computing Surveys, 2023)",
+    "letter": "D"
+  },
+  {
+    "term": "DPO (Direct Preference Optimization)",
+    "definition": "an alignment method that directly optimizes a policy using paired human preferences without an explicit reward model.",
+    "source": "ACM DL—Token-level DPO (2024); β-DPO (2025)",
+    "letter": "D"
+  },
+  {
+    "term": "Federated learning",
+    "definition": "a distributed training paradigm where clients collaboratively learn a shared model without centralizing their raw data, often with personalization and privacy mechanisms.",
+    "source": "ACM DL—Federated learning survey: a multi-level taxonomy of personalization, optimization and robustness (2024)",
+    "letter": "F"
+  },
+  {
+    "term": "Floating-point operations per second (FLOPS)",
+    "definition": "the unit of measurement used to calculate the power of a supercomputer.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "F"
   },
   {
     "term": "Foundation model",
@@ -72,9 +198,33 @@
     "letter": "G"
   },
   {
+    "term": "Generative AI",
+    "definition": "a subset of machine learning models that can generate media, such as writing, images or music. generative ai is trained on vast amounts of raw data — for example, the text of millions of web pages or books — and learns the patterns within it, in order to generate the most likely correct response when prompted with a question written in text in that language.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "G"
+  },
+  {
+    "term": "Generative adversarial network (GAN)",
+    "definition": "a machine learning technique that can generate data, such as realistic deepfake images, that is difficult to distinguish from the data it is trained on. a gan is made up of two competing elements: a generator and a discriminator. the generator creates fake data, which the discriminator compares to real training data and feeds back with where it has detected differences.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "G"
+  },
+  {
     "term": "Generative model",
     "definition": "a model that creates new examples from a training dataset or determines the probability that a new example comes from the same distribution as the training set.",
     "source": "Google machine learning glossary",
+    "letter": "G"
+  },
+  {
+    "term": "Generative pre-trained transformer (GPT)",
+    "definition": "one family of large language models developed by openai since 2018, and used to power its chatgpt chatbot.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "G"
+  },
+  {
+    "term": "God-like AI",
+    "definition": "a popular term for artificial general intelligence.",
+    "source": "The Alan Turing institute data science and AI glossary",
     "letter": "G"
   },
   {
@@ -90,6 +240,12 @@
     "letter": "H"
   },
   {
+    "term": "Hallucination",
+    "definition": "a flaw in generative ai models that can result in chatbots stating falsehoods as facts, or inventing realities. examples of hallucinations include creating fake book citations or answering elephant when asked which mammal lays the largest eggs.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "H"
+  },
+  {
     "term": "Heuristic",
     "definition": "a simple and quickly implemented solution to a problem. heuristics can provide acceptable accuracy but are usually less powerful than deep learning methods.",
     "source": "Google machine learning glossary",
@@ -102,9 +258,21 @@
     "letter": "H"
   },
   {
+    "term": "Human in the loop (HITL)",
+    "definition": "a system comprising a human and an ai component, in which the human can intervene by training, tuning or testing the system’s algorithm, so that it produces more useful results.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "H"
+  },
+  {
     "term": "Implicit bias",
     "definition": "automatic associations or assumptions based on mind models and memories. implicit bias can affect data collection, classification, and system design.",
     "source": "Google machine learning glossary",
+    "letter": "I"
+  },
+  {
+    "term": "In-context learning (ICL)",
+    "definition": "a capability of large language models to adapt to a new task from examples included directly in the prompt at inference time—without updating model weights.",
+    "source": "ACM DL—The learnability of in-context learning (2023–2024)",
     "letter": "I"
   },
   {
@@ -114,9 +282,27 @@
     "letter": "I"
   },
   {
+    "term": "Instruction tuning",
+    "definition": "supervised fine-tuning on instruction–response pairs to make models follow natural-language directives more faithfully.",
+    "source": "ACM DL—A comparative analysis of instruction fine-tuning large language models (2025)",
+    "letter": "I"
+  },
+  {
     "term": "Large language model",
     "definition": "a language model with a very high number of parameters, usually transformer-based, such as gemini or gpt.",
     "source": "Google machine learning glossary",
+    "letter": "L"
+  },
+  {
+    "term": "Large language model (LLM)",
+    "definition": "a machine learning algorithm that can recognise, summarise, translate, predict and generate text.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "L"
+  },
+  {
+    "term": "LoRA (Low-Rank Adaptation)",
+    "definition": "a parameter-efficient fine-tuning technique that injects low-rank trainable matrices into existing weights to adapt large models with few additional parameters.",
+    "source": "ACM DL—LoRA+: efficient low-rank adaptation of large models (2024)",
     "letter": "L"
   },
   {
@@ -126,9 +312,33 @@
     "letter": "M"
   },
   {
+    "term": "Machine learning (ML)",
+    "definition": "an application of ai whereby computer programs can automatically learn from, and adapt to, new data without being specifically programmed to do so. ml programs improve over time with training, learning from past experiences or mistakes, as well as spotting patterns in new data.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "M"
+  },
+  {
+    "term": "Mixture of Experts (MoE)",
+    "definition": "a sparse architecture that routes tokens to specialized ‘expert’ sub-networks, enabling efficient scaling of large models.",
+    "source": "ACM DL—Toward efficient inference for mixture of experts (2025); resource-efficient algorithms and systems of foundation models (2024)",
+    "letter": "M"
+  },
+  {
+    "term": "Multi-agent system",
+    "definition": "a computer system involving multiple, interacting software programs known as agents. agents often actively help and work with humans to complete a task — the most common everyday examples are virtual assistants on smartphones and personal computers such as apple’s siri, amazon’s alexa and microsoft’s cortana.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "M"
+  },
+  {
     "term": "Natural language processing",
     "definition": "the field of teaching computers to process human language using linguistic rules. modern nlp largely relies on machine learning.",
     "source": "Google machine learning glossary",
+    "letter": "N"
+  },
+  {
+    "term": "Natural language processing (NLP)",
+    "definition": "a field of ai that uses computer algorithms to analyse or synthesise human speech and text. the algorithms look for linguistic patterns in how sentences and paragraphs are constructed, and how the words, context and structure work together to create meaning.",
+    "source": "The Alan Turing institute data science and AI glossary",
     "letter": "N"
   },
   {
@@ -142,6 +352,18 @@
     "definition": "a model containing at least one hidden layer. deep neural networks contain more than one hidden layer. neural networks can model complex nonlinear relationships between features and labels.",
     "source": "Google machine learning glossary",
     "letter": "N"
+  },
+  {
+    "term": "Neural networks",
+    "definition": "computer systems for processing data inspired by the way neurons interact in the human brain. data goes into the system, the neurons communicate to understand it, and the system creates an output. the more frequently the system acts on data, the better able it is to discern differences in the data set.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "N"
+  },
+  {
+    "term": "Open source",
+    "definition": "software and data that are free to edit and share, in order to help researchers to collaborate, to check and replicate findings, and to share new developments with the wider community of developers.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "O"
   },
   {
     "term": "Post-trained model",
@@ -162,9 +384,27 @@
     "letter": "P"
   },
   {
+    "term": "Prompt engineering",
+    "definition": "the practice of designing, iterating, and evaluating prompts to steer model behavior and improve reliability, often moving toward systematic, human-centered methods.",
+    "source": "ACM DL—From prompt engineering to prompt science with humans in the loop (2025)",
+    "letter": "P"
+  },
+  {
+    "term": "Prompt tuning",
+    "definition": "a parameter-efficient fine-tuning method that learns small, task-specific prompt vectors or templates while keeping the base model largely frozen.",
+    "source": "ACM DL—Pre-train, prompt, and predict: a systematic survey of prompting methods (ACM Computing Surveys, 2023)",
+    "letter": "P"
+  },
+  {
     "term": "Retrieval-augmented generation (RAG)",
     "definition": "a technique for improving the quality of large language model output by grounding it with knowledge retrieved after training. rag increases factual accuracy and enables citation of sources.",
     "source": "Google machine learning glossary",
+    "letter": "R"
+  },
+  {
+    "term": "RLHF (Reinforcement Learning from Human Feedback)",
+    "definition": "an alignment approach that trains a reward model from human preferences and then optimizes the policy to follow those preferences.",
+    "source": "ACM DL—Principled reinforcement learning with human feedback (2023); RLHF deciphered (2025)",
     "letter": "R"
   },
   {
@@ -192,6 +432,36 @@
     "letter": "S"
   },
   {
+    "term": "SHAP (SHapley Additive exPlanations)",
+    "definition": "a game-theoretic approach for attributing a model’s prediction to input features via shapley values, widely used for post-hoc explanation.",
+    "source": "ACM DL—Explainability for large language models: a survey (2024); WebSHAP (2023)",
+    "letter": "S"
+  },
+  {
+    "term": "Singularity",
+    "definition": "a currently hypothetical point in time when artificial general intelligence surpasses human intelligence, leading to an acceleration in technological progress and the potential automation of all knowledge-based work.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "S"
+  },
+  {
+    "term": "Superintelligence",
+    "definition": "an ai system that is self-aware and possesses a higher level of intelligence than humans.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "S"
+  },
+  {
+    "term": "Supervised learning",
+    "definition": "a form of machine learning that uses labelled data to train an algorithm to classify data or predict outcomes accurately. because the inputs are labelled, the model can measure its accuracy in recognising or distinguishing between them, and therefore learn over time.",
+    "source": "The Alan Turing institute data science and AI glossary",
+    "letter": "S"
+  },
+  {
+    "term": "Text watermarking (AIGC)",
+    "definition": "techniques that embed detectable statistical signals in generated text to support provenance, detection, or attribution.",
+    "source": "ACM DL—A survey of text watermarking in the era of large language models (2024)",
+    "letter": "T"
+  },
+  {
     "term": "Token",
     "definition": "the atomic unit that a language model trains on and predicts. tokens can be words, characters, or subwords. in other domains tokens may represent other atomic units such as image patches.",
     "source": "Google machine learning glossary",
@@ -204,207 +474,33 @@
     "letter": "T"
   },
   {
+    "term": "Tool use (function calling) for LLMs",
+    "definition": "methods that enable models to select and invoke external tools or apis to retrieve information or perform actions, improving reliability and capabilities.",
+    "source": "ACM DL—A survey on evaluation of large language models (2024)—tool-use coverage; tool learning with foundation models (2024–2025)",
+    "letter": "T"
+  },
+  {
     "term": "Transformer",
     "definition": "a neural network architecture that relies on self-attention to transform sequences of embeddings. transformers may include encoders, decoders, or both, and are the basis of most large language models.",
     "source": "Google machine learning glossary",
     "letter": "T"
   },
   {
-    "term": "Validation",
-    "definition": "the initial evaluation of a model's quality against a validation set. validation helps guard against overfitting and acts as a first round of testing before evaluation on a test set.",
-    "source": "Google machine learning glossary",
-    "letter": "V"
-  },
-  {
-    "term": "Algorithm",
-    "definition": "a sequence of rules that a computer follows to complete a task — it takes an input, for example, from a data set, then performs a test or calculation on it and generates an output. algorithms can be used in this way to spot patterns in data and make predictions.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "A"
-  },
-  {
-    "term": "Algorithmic bias",
-    "definition": "decision-making errors or unfair outcomes that can arise from problems with an algorithm’s processing of data, or flaws and biases in the underlying data itself. a bias can result in an algorithm inadvertently privileging or disadvantaging one group of users over another group. examples include customers being treated differently because of systemic prejudices around race, gender, sexuality, disability, or ethnicity.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "A"
-  },
-  {
-    "term": "Alignment",
-    "definition": "an area of research responsible for ensuring that artificial general intelligence — or so-called god-like ai — systems have goals that align with human values. for example, alignment researchers have helped to train ai models to avoid answering questions about how to self-harm and how to use bigoted language.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "A"
-  },
-  {
-    "term": "Artificial general intelligence",
-    "definition": "a computer system capable of generating new scientific knowledge and performing any task that humans can. it would enable the creation of a superintelligent computer that learns and develops autonomously, understands its environment without the need for supervision, and becomes capable of transforming the world around it.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "A"
-  },
-  {
-    "term": "Artificial intelligence (AI)",
-    "definition": "the science of enabling machines to perform tasks that would previously have required human brainpower — for example, reasoning, decision-making, differentiating words and images; learning from mistakes, predicting outcomes, problem solving. it involves the use of computers to reproduce or undertake such actions, often at a higher speed and accuracy than previously achieved.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "A"
-  },
-  {
-    "term": "Big data",
-    "definition": "very large data sets that may be analysed computationally to reveal patterns, trends, and associations. businesses may use analysis of big data to identify common human behaviours, transactions, and interactions.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "B"
-  },
-  {
-    "term": "Chatbot",
-    "definition": "a software application that can respond to text questions and mimic human conversation, by analysing text and predicting the answer that is required. chatbots are mostly used as virtual assistants on customer service websites, but generative ai has enabled them to be used to create different forms of writing.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "C"
-  },
-  {
-    "term": "ChatGPT",
-    "definition": "a natural language processing chatbot driven by ai technology developed by openai. chatgpt is based on a language-based model that the developer fine tunes with help from user feedback. in response to text-based questions and prompts describing the type of written output required, the chatbot can compose articles and essays, write emails, tell creative stories, and generate programming code.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "C"
-  },
-  {
-    "term": "Compute",
-    "definition": "the computational power required for ai systems to perform tasks, such as processing data, training machine learning models, and making predictions — measured in floating-point operations per second, or flops.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "C"
-  },
-  {
-    "term": "Computer vision",
-    "definition": "a field of research that uses computers to obtain useful information from digital images or videos. applications include object recognition; facial recognition; medical imaging; navigation; video surveillance. it uses machine learning models that can analyse and distinguish different images based on their attributes.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "C"
-  },
-  {
-    "term": "Dall-E",
-    "definition": "a deep-learning model developed by openai that can generate digital images from text-based natural language descriptions, called prompts, which are input by users.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "D"
-  },
-  {
-    "term": "Data science",
-    "definition": "research involving the processing of large amounts of data in order to identify patterns, spot trends and outliers, and provide insights into real-world problems.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "D"
-  },
-  {
-    "term": "Deepfake",
-    "definition": "synthetic audio, video or imagery that can convincingly represent a real person, or create a realistic impression of a person who has never existed. created by machine learning algorithms, deepfakes can make real people appear to say and do whatever the creators wish.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "D"
-  },
-  {
-    "term": "Deep learning (DL)",
-    "definition": "a subset of machine learning that can be used to solve complex problems, such as speech recognition or image classification. unlike machine learning, which requires human input to understand the data and learn from it, dl can ingest unstructured data in a raw form — from text, music or video — and distinguish the difference between different categories of data. dl models run on software called neural networks, modelled on the human brain.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "D"
-  },
-  {
-    "term": "Floating-point operations per second (FLOPS)",
-    "definition": "the unit of measurement used to calculate the power of a supercomputer.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "F"
-  },
-  {
-    "term": "Generative AI",
-    "definition": "a subset of machine learning models that can generate media, such as writing, images or music. generative ai is trained on vast amounts of raw data — for example, the text of millions of web pages or books — and learns the patterns within it, in order to generate the most likely correct response when prompted with a question written in text in that language.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "G"
-  },
-  {
-    "term": "Generative adversarial network (GAN)",
-    "definition": "a machine learning technique that can generate data, such as realistic deepfake images, that is difficult to distinguish from the data it is trained on. a gan is made up of two competing elements: a generator and a discriminator. the generator creates fake data, which the discriminator compares to real training data and feeds back with where it has detected differences.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "G"
-  },
-  {
-    "term": "Generative pre-trained transformer (GPT)",
-    "definition": "one family of large language models developed by openai since 2018, and used to power its chatgpt chatbot.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "G"
-  },
-  {
-    "term": "God-like AI",
-    "definition": "a popular term for artificial general intelligence.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "G"
-  },
-  {
-    "term": "Hallucination",
-    "definition": "a flaw in generative ai models that can result in chatbots stating falsehoods as facts, or inventing realities. examples of hallucinations include creating fake book citations or answering elephant when asked which mammal lays the largest eggs.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "H"
-  },
-  {
-    "term": "Human in the loop (HITL)",
-    "definition": "a system comprising a human and an ai component, in which the human can intervene by training, tuning or testing the system’s algorithm, so that it produces more useful results.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "H"
-  },
-  {
-    "term": "Large language model (LLM)",
-    "definition": "a machine learning algorithm that can recognise, summarise, translate, predict and generate text.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "L"
-  },
-  {
-    "term": "Machine learning (ML)",
-    "definition": "an application of ai whereby computer programs can automatically learn from, and adapt to, new data without being specifically programmed to do so. ml programs improve over time with training, learning from past experiences or mistakes, as well as spotting patterns in new data.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "M"
-  },
-  {
-    "term": "Multi-agent system",
-    "definition": "a computer system involving multiple, interacting software programs known as agents. agents often actively help and work with humans to complete a task — the most common everyday examples are virtual assistants on smartphones and personal computers such as apple’s siri, amazon’s alexa and microsoft’s cortana.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "M"
-  },
-  {
-    "term": "Natural language processing (NLP)",
-    "definition": "a field of ai that uses computer algorithms to analyse or synthesise human speech and text. the algorithms look for linguistic patterns in how sentences and paragraphs are constructed, and how the words, context and structure work together to create meaning.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "N"
-  },
-  {
-    "term": "Neural networks",
-    "definition": "computer systems for processing data inspired by the way neurons interact in the human brain. data goes into the system, the neurons communicate to understand it, and the system creates an output. the more frequently the system acts on data, the better able it is to discern differences in the data set.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "N"
-  },
-  {
-    "term": "Open source",
-    "definition": "software and data that are free to edit and share, in order to help researchers to collaborate, to check and replicate findings, and to share new developments with the wider community of developers.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "O"
-  },
-  {
-    "term": "Singularity",
-    "definition": "a currently hypothetical point in time when artificial general intelligence surpasses human intelligence, leading to an acceleration in technological progress and the potential automation of all knowledge-based work.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "S"
-  },
-  {
-    "term": "Superintelligence",
-    "definition": "an ai system that is self-aware and possesses a higher level of intelligence than humans.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "S"
-  },
-  {
-    "term": "Supervised learning",
-    "definition": "a form of machine learning that uses labelled data to train an algorithm to classify data or predict outcomes accurately. because the inputs are labelled, the model can measure its accuracy in recognising or distinguishing between them, and therefore learn over time.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
-    "letter": "S"
-  },
-  {
     "term": "Turing test",
     "definition": "a test of a machine’s ability to demonstrate humanlike intelligence. it was first devised by mathematician and computing pioneer alan turing as the imitation game in his 1950 paper computing machinery and intelligence. the test involves a human evaluator asking questions to another human and to a machine via a computer keyboard and monitor. if the evaluator cannot tell from the written responses which is the human and which is the machine, then the machine has passed the turing test.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
+    "source": "The Alan Turing institute data science and AI glossary",
     "letter": "T"
   },
   {
     "term": "Unsupervised learning",
     "definition": "a form of machine learning in which algorithms analyse and cluster unlabeled data sets, by looking for hidden patterns in the data — without the need for human intervention to train or correct them.",
-    "source": "The Alan Turing Institute Data Science and AI Glossary",
+    "source": "The Alan Turing institute data science and AI glossary",
     "letter": "U"
+  },
+  {
+    "term": "Validation",
+    "definition": "the initial evaluation of a model's quality against a validation set. validation helps guard against overfitting and acts as a first round of testing before evaluation on a test set.",
+    "source": "Google machine learning glossary",
+    "letter": "V"
   }
 ]

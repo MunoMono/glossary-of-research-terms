@@ -38,6 +38,10 @@ body {
 
 h1, h2 { color: var(--cds-text-primary); }
 
+h1 {
+  margin-bottom: 1rem !important;
+}
+
 a {
   color: var(--cds-link-primary);
   text-decoration: none;
