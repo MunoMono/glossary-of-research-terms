@@ -22,5 +22,77 @@
     "definition": "a sociotechnical approach developed in science and technology studies (sts) that treats both humans and nonhumans (machines, texts, institutions, technologies) as 'actors' in a network. rather than explaining outcomes solely by social forces or technical properties, ant follows how heterogeneous actors form associations, stabilize, and produce effects. bruno latour, michel callon, and john law emphasized that knowledge, power, and technology emerge from these networks, not from isolated human intentions.",
     "source": "B. Latour, Science in Action (1987); M. Callon, 'Some Elements of a Sociology of Translation' (1986); J. Law, 'Notes on the Theory of the Actor-Network' (1992)",
     "letter": "A"
+  },
+  {
+    "term": "API (Application Programming Interface)",
+    "definition": "a structured interface that allows different software systems to communicate by exposing endpoints for data exchange and functionality. In this project, GraphQL APIs expose metadata and presigned media links to clients.",
+    "source": "Field usage in software engineering; GraphQL specification",
+    "letter": "A"
+  },
+  {
+    "term": "Auth0",
+    "definition": "a cloud-based authentication and authorization service that issues secure JSON Web Tokens (JWTs) for identity verification and access control.",
+    "source": "Auth0 Documentation, https://auth0.com/docs",
+    "letter": "A"
+  },
+  {
+    "term": "CI/CD (Continuous Integration / Continuous Deployment)",
+    "definition": "a set of software practices where code changes are automatically built, tested, and deployed. GitHub Actions pipelines in this project ensure reliable deployments to DigitalOcean and GitHub Pages.",
+    "source": "Martin Fowler, 'Continuous Integration' (2006); GitHub Actions docs",
+    "letter": "C"
+  },
+  {
+    "term": "ERD (Entity–Relationship Diagram)",
+    "definition": "a visual representation of data structures showing entities (e.g. artefacts, media, users) and their relationships (e.g. ownership, provenance).",
+    "source": "Peter Chen, 'The Entity–Relationship Model' (1976)",
+    "letter": "E"
+  },
+  {
+    "term": "JSONB",
+    "definition": "a binary JSON data type in PostgreSQL that allows efficient storage and querying of structured JSON documents, used here for multilingual metadata fields.",
+    "source": "PostgreSQL Documentation, JSON Types",
+    "letter": "J"
+  },
+  {
+    "term": "JWT (JSON Web Token)",
+    "definition": "a compact, URL-safe token format that encodes claims about a user’s identity and permissions. The backend validates JWTs issued by Auth0 before allowing mutations.",
+    "source": "IETF RFC 7519",
+    "letter": "J"
+  },
+  {
+    "term": "OCR (Optical Character Recognition)",
+    "definition": "a technology that extracts machine-readable text from scanned images or documents. OCR outputs are embedded for semantic search in the archive.",
+    "source": "Ray Kurzweil, 'The Age of Intelligent Machines' (1990); OCR technical literature",
+    "letter": "O"
+  },
+  {
+    "term": "RBAC (Role-Based Access Control)",
+    "definition": "a method of restricting system access based on assigned roles. Administrators in this platform are given elevated permissions for ingestion and editing.",
+    "source": "David Ferraiolo & D. Richard Kuhn, 'Role-Based Access Control' (1992)",
+    "letter": "R"
+  },
+  {
+    "term": "SoW (Statement of Work)",
+    "definition": "a formal project management document that defines scope, deliverables, timelines, and acceptance criteria. Here it governs the RCA DDR archive ingestion platform project.",
+    "source": "Project Management Institute (PMI) standards",
+    "letter": "S"
+  },
+  {
+    "term": "UI (User Interface)",
+    "definition": "the layer of an application where users interact visually with the system. Built here using React and the IBM Carbon Design System.",
+    "source": "Donald Norman, 'The Design of Everyday Things' (1988)",
+    "letter": "U"
+  },
+  {
+    "term": "UAT (User Acceptance Testing)",
+    "definition": "a testing phase where real users validate the system against requirements before production deployment.",
+    "source": "ISTQB Glossary of Software Testing Terms",
+    "letter": "U"
+  },
+  {
+    "term": "WCAG (Web Content Accessibility Guidelines)",
+    "definition": "International accessibility standards ensuring digital content is perceivable, operable, understandable, and robust. The frontend complies with WCAG 2.1 AA.",
+    "source": "W3C Web Accessibility Initiative, WCAG 2.1 (2018)",
+    "letter": "W"
   }
 ]
