@@ -91,8 +91,68 @@
   },
   {
     "term": "WCAG (Web Content Accessibility Guidelines)",
-    "definition": "International accessibility standards ensuring digital content is perceivable, operable, understandable, and robust. The frontend complies with WCAG 2.1 AA.",
+    "definition": "international accessibility standards ensuring digital content is perceivable, operable, understandable, and robust. the frontend complies with WCAG 2.1 AA.",
     "source": "W3C Web Accessibility Initiative, WCAG 2.1 (2018)",
     "letter": "W"
+  },
+  {
+    "term": "ISAD(G)",
+    "definition": "an international descriptive standard published by the International Council on Archives (ICA) that defines general rules and a common set of elements for creating archival unit descriptions across formats and institutions.",
+    "source": "ICA, ISAD(G): General International Standard Archival Description – Second Edition (2000)",
+    "letter": "I"
+  },
+  {
+    "term": "Fonds",
+    "definition": "the entire body of records created and/or accumulated by a particular person, family or organisation in the course of its functions and preserved as an organic whole.",
+    "source": "Society of American Archivists Dictionary; UNBC Archives 101 Guide",
+    "letter": "F"
+  },
+  {
+    "term": "PID",
+    "definition": "a persistent identifier: a long-lasting, unique reference (often globally resolvable) to a digital object or resource, used to ensure reliable identification and access even when URLs change.",
+    "source": "Digital Preservation Handbook – Persistent Identifiers section",
+    "letter": "P"
+  },
+  {
+    "term": "Checksum (SHA-256)",
+    "definition": "a cryptographic hash value (using the SHA-256 algorithm) computed over a file or data object to serve as a ‘digital fingerprint’ so that any change to the bit-pattern will produce a different hash; used for integrity verification and fixity checking in digital preservation.",
+    "source": "Digital Preservation Handbook – Fixity and Checksums; Digital preservation step-by-step",
+    "letter": "C"
+  },
+  {
+    "term": "MIME type",
+    "definition": "a two-part identifier (type/subtype) formally known as an Internet media type (formerly ‘MIME type’) that indicates the nature and format of a document, file or data stream — used to inform systems how to process or render the content.",
+    "source": "MDN Web Docs – Media Types; Wikipedia – Media type",
+    "letter": "M"
+  },
+  {
+    "term": "PII (personally identifiable information)",
+    "definition": "information which can be used — alone or in combination with other data — to identify an individual, and which therefore may require redaction or special handling in archival or data-management contexts.",
+    "source": "Piwik PRO blog – What is PII, non-PII, and personal data?",
+    "letter": "P"
+  },
+  {
+    "term": "VRA Core 4.0",
+    "definition": "a metadata element set standard developed by the Visual Resources Association for describing works of visual culture (and the images documenting them) — version 4.0 is expressed in XML and provides a hierarchy of work/image/collection entity types.",
+    "source": "VRA Core 4.0 – Library of Congress; DCC guidance",
+    "letter": "V"
+  },
+  {
+    "term": "Fixity",
+    "definition": "the property or assurance that a digital object has remained unchanged over time (i.e. ‘fixed’); often monitored via checksums or other hash values to signal whether any unintended alteration or corruption has occurred.",
+    "source": "Digital Preservation Handbook; UFS LibGuides – Fixity",
+    "letter": "F"
+  },
+  {
+    "term": "Accession number",
+    "definition": "a unique identifier assigned by a repository to a group of records or materials at the time they are formally accepted into custody, used to link the physical or digital objects with their acquisition and descriptive documentation.",
+    "source": "Society of American Archivists Dictionary of Archives Terminology; National Archives and Records Administration description",
+    "letter": "A"
+  },
+  {
+    "term": "OAIS (Open Archival Information System)",
+    "definition": "a high-level conceptual reference model for an archive involving an organisation of people and systems that have accepted responsibility for long-term preservation and access of information for a designated community; it defines functional entities (ingest, archival storage, data management, preservation planning, access, administration) and information packages (SIP, AIP, DIP).",
+    "source": "ISO 14721:2012 / ISO 14721:2025 standard; Introduction to OAIS Reference Model",
+    "letter": "O"
   }
 ]
