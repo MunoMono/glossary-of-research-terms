@@ -502,5 +502,11 @@
     "definition": "the initial evaluation of a model's quality against a validation set. validation helps guard against overfitting and acts as a first round of testing before evaluation on a test set.",
     "source": "Google machine learning glossary",
     "letter": "V"
-  }
+  },
+  {
+"term": "Agentic AI",
+"definition": "AI systems composed of agents that can behave and interact autonomously in order to achieve their objectives.",
+"source": "UK Government, 'AI Insights: Agentic AI' (September 11, 2025)",
+"letter": "A"
+}
 ]
