@@ -1,0 +1,302 @@
+[
+  {
+    "term": "DDL",
+    "definition": "sql used to define tables, columns, constraints, and relationships (e.g., create table, alter table).",
+    "source": "PostgreSQL Documentation — SQL Commands",
+    "letter": "D"
+  },
+  {
+    "term": "FK",
+    "definition": "field that links to a row in another table to enforce referential integrity.",
+    "source": "PostgreSQL Documentation — Constraints (Foreign Keys)",
+    "letter": "F"
+  },
+  {
+    "term": "PK",
+    "definition": "unique, not null identifier for each row in a table.",
+    "source": "PostgreSQL Documentation — Constraints (Primary Keys)",
+    "letter": "P"
+  },
+  {
+    "term": "UUID",
+    "definition": "128-bit globally unique identifier, suitable for distributed systems.",
+    "source": "PostgreSQL Documentation — UUID Type",
+    "letter": "U"
+  },
+  {
+    "term": "ERD",
+    "definition": "diagram that models entities (tables) and relationships for schema design.",
+    "source": "ACM Computing Surveys",
+    "letter": "E"
+  },
+  {
+    "term": "n:m / m:n",
+    "definition": "relationship where rows in each table can relate to many rows in the other, implemented via a join table.",
+    "source": "PostgreSQL Documentation — Constraints & Relationships",
+    "letter": "n"
+  },
+  {
+    "term": "1:n / 1:m",
+    "definition": "relationship where one row in a parent table links to many rows in a child table.",
+    "source": "PostgreSQL Documentation — Joins (Modeling relationships)",
+    "letter": "1"
+  },
+  {
+    "term": "CSV",
+    "definition": "plain-text tabular format commonly used to import or export data.",
+    "source": "PostgreSQL Documentation — COPY",
+    "letter": "C"
+  },
+  {
+    "term": "JSONB",
+    "definition": "binary json type supporting indexing and rich operators.",
+    "source": "PostgreSQL Documentation — JSON Types",
+    "letter": "J"
+  },
+  {
+    "term": "Enum",
+    "definition": "user-defined type whose values are a fixed set of labels.",
+    "source": "PostgreSQL Documentation — Enumerated Types",
+    "letter": "E"
+  },
+  {
+    "term": "PII",
+    "definition": "information that can identify an individual and requires stricter controls.",
+    "source": "NIST SP 800-122",
+    "letter": "P"
+  },
+  {
+    "term": "API",
+    "definition": "programmatic interface for accessing database-backed services.",
+    "source": "Oracle Database Concepts",
+    "letter": "A"
+  },
+  {
+    "term": "CRUD",
+    "definition": "four fundamental data operations a system must support: create, read, update, delete.",
+    "source": "PostgreSQL Documentation — SQL Command Reference",
+    "letter": "C"
+  },
+  {
+    "term": "ACID",
+    "definition": "transaction guarantees that ensure reliable, recoverable changes (atomicity, consistency, isolation, durability).",
+    "source": "PostgreSQL Documentation — Glossary",
+    "letter": "A"
+  },
+  {
+    "term": "Transaction",
+    "definition": "atomic unit of work that begins with begin and ends with commit or rollback.",
+    "source": "PostgreSQL Documentation — Transactions",
+    "letter": "T"
+  },
+  {
+    "term": "Isolation levels",
+    "definition": "settings (read committed, repeatable read, serializable) that control what concurrent transactions can see.",
+    "source": "PostgreSQL Documentation — Transaction Isolation",
+    "letter": "I"
+  },
+  {
+    "term": "MVCC",
+    "definition": "multi-version concurrency control using row versions so readers don’t block writers and vice versa.",
+    "source": "PostgreSQL Documentation — MVCC",
+    "letter": "M"
+  },
+  {
+    "term": "WAL",
+    "definition": "write-ahead logging that records changes before writing data pages, enabling crash recovery.",
+    "source": "PostgreSQL Documentation — WAL",
+    "letter": "W"
+  },
+  {
+    "term": "Index types",
+    "definition": "available index methods (b-tree, hash, gist, sp-gist, gin, brin) optimized for different query patterns.",
+    "source": "PostgreSQL Documentation — Index Types",
+    "letter": "I"
+  },
+  {
+    "term": "Partitioning",
+    "definition": "technique that splits a large table into partitions for performance and manageability.",
+    "source": "PostgreSQL Documentation — Table Partitioning",
+    "letter": "P"
+  },
+  {
+    "term": "Replication",
+    "definition": "physical or logical copying of wal or row changes from a primary to standbys or subscribers.",
+    "source": "PostgreSQL Documentation — Replication",
+    "letter": "R"
+  },
+  {
+    "term": "OLTP",
+    "definition": "workloads optimized for many small reads and writes with low latency.",
+    "source": "Oracle Database Concepts — OLTP",
+    "letter": "O"
+  },
+  {
+    "term": "OLAP",
+    "definition": "analytical workloads over large, often historical, datasets.",
+    "source": "Oracle OLAP User's Guide",
+    "letter": "O"
+  },
+  {
+    "term": "EXPLAIN / Query plan",
+    "definition": "command that shows how the planner will execute a query; analyze adds timings.",
+    "source": "PostgreSQL Documentation — EXPLAIN",
+    "letter": "E"
+  },
+  {
+    "term": "Materialized view",
+    "definition": "stored result of a query that can be refreshed for faster reads.",
+    "source": "PostgreSQL Documentation — CREATE MATERIALIZED VIEW",
+    "letter": "M"
+  },
+  {
+    "term": "Referential integrity",
+    "definition": "guarantee that child rows reference valid parent rows via foreign keys.",
+    "source": "PostgreSQL Documentation — Foreign Keys",
+    "letter": "R"
+  },
+  {
+    "term": "Normalization (3NF/BCNF)",
+    "definition": "schema design discipline that reduces redundancy and anomalies using normal forms.",
+    "source": "Communications of the ACM — Kent (1983)",
+    "letter": "N"
+  },
+  {
+    "term": "CAP theorem",
+    "definition": "principle stating that under partition a distributed system cannot provide both strong consistency and availability.",
+    "source": "Communications of the ACM — Brewer (2012)",
+    "letter": "C"
+  },
+  {
+    "term": "Consistency models",
+    "definition": "guarantees such as strong, eventual, and causal that describe read/write behavior in distributed databases.",
+    "source": "ACM Queue — Eventually Consistent (Vogels)",
+    "letter": "C"
+  },
+  {
+    "term": "Sharding",
+    "definition": "horizontal partitioning that distributes data across nodes for scale-out.",
+    "source": "ACM Computing Surveys — Large-Scale Data Management",
+    "letter": "S"
+  },
+  {
+    "term": "Locks",
+    "definition": "concurrency primitives (table, row, advisory) used to coordinate access.",
+    "source": "PostgreSQL Documentation — Explicit Locking",
+    "letter": "L"
+  },
+  {
+    "term": "Constraints",
+    "definition": "declarative integrity rules such as not null, unique, check, exclude, foreign key, and primary key.",
+    "source": "PostgreSQL Documentation — Constraints",
+    "letter": "C"
+  },
+  {
+    "term": "Primary key",
+    "definition": "unique, not null identifier for each row, usually backed by an index.",
+    "source": "PostgreSQL Documentation — Primary Keys",
+    "letter": "P"
+  },
+  {
+    "term": "Checkpoint",
+    "definition": "wal durability milestone that flushes dirty buffers and records a checkpoint to bound recovery time.",
+    "source": "PostgreSQL Documentation — WAL Configuration",
+    "letter": "C"
+  },
+  {
+    "term": "PITR",
+    "definition": "point-in-time recovery that restores a cluster to a chosen time using base backups and archived wal.",
+    "source": "PostgreSQL Documentation — Continuous Archiving & PITR",
+    "letter": "P"
+  },
+  {
+    "term": "Planner statistics",
+    "definition": "analyze-collected histograms and most-common values used by the cost-based optimizer.",
+    "source": "PostgreSQL Documentation — Statistics Used by the Planner",
+    "letter": "P"
+  },
+  {
+    "term": "VACUUM / Autovacuum",
+    "definition": "maintenance that reclaims dead tuples and prevents transaction id wraparound.",
+    "source": "PostgreSQL Documentation — Routine Vacuuming",
+    "letter": "V"
+  },
+  {
+    "term": "Roles",
+    "definition": "users and groups that own objects and hold privileges for authentication and authorization.",
+    "source": "PostgreSQL Documentation — Database Roles",
+    "letter": "R"
+  },
+  {
+    "term": "GRANT / Privileges",
+    "definition": "permissions that control who can connect, use schemas, and read or write objects.",
+    "source": "PostgreSQL Documentation — GRANT",
+    "letter": "G"
+  },
+  {
+    "term": "Row-Level Security (RLS)",
+    "definition": "policies that restrict which rows a role may select, insert, update, or delete.",
+    "source": "PostgreSQL Documentation — Row Security Policies",
+    "letter": "R"
+  },
+  {
+    "term": "Sequence",
+    "definition": "object that yields unique numeric values, often used for surrogate keys.",
+    "source": "PostgreSQL Documentation — CREATE SEQUENCE",
+    "letter": "S"
+  },
+  {
+    "term": "Identity column",
+    "definition": "standard auto-increment column generated by an implicit sequence (generated as identity).",
+    "source": "PostgreSQL Documentation — Identity Columns",
+    "letter": "I"
+  },
+  {
+    "term": "Domain type",
+    "definition": "constrained base type that encapsulates validation rules for reuse.",
+    "source": "PostgreSQL Documentation — Domains",
+    "letter": "D"
+  },
+  {
+    "term": "Array type",
+    "definition": "column type that stores arrays with dedicated operators and functions.",
+    "source": "PostgreSQL Documentation — Array Functions & Operators",
+    "letter": "A"
+  },
+  {
+    "term": "Range / Multirange types",
+    "definition": "interval value types (e.g., tsrange, daterange) with overlap and containment semantics; multiranges hold disjoint ranges.",
+    "source": "PostgreSQL Documentation — Range Types",
+    "letter": "R"
+  },
+  {
+    "term": "Generated column",
+    "definition": "column whose value is computed from an expression and may be stored or virtual.",
+    "source": "PostgreSQL Documentation — Generated Columns",
+    "letter": "G"
+  },
+  {
+    "term": "View",
+    "definition": "virtual table defined by a named query and not physically stored.",
+    "source": "PostgreSQL Documentation — CREATE VIEW",
+    "letter": "V"
+  },
+  {
+    "term": "Schemas / search_path",
+    "definition": "namespaces that organize objects; search_path sets name-resolution order.",
+    "source": "PostgreSQL Documentation — Schemas",
+    "letter": "S"
+  },
+  {
+    "term": "Partial index",
+    "definition": "index built only on rows matching a predicate to reduce size and maintenance.",
+    "source": "PostgreSQL Documentation — Partial Indexes",
+    "letter": "P"
+  },
+  {
+    "term": "Expression index",
+    "definition": "index on the result of an expression to speed repeated calculations or filters.",
+    "source": "PostgreSQL Documentation — Indexes on Expressions",
+    "letter": "E"
+  }
+]

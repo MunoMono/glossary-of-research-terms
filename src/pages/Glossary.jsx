@@ -1,11 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import {
-  Grid,
-  Column,
-  Tag,
-  Breadcrumb,
-  BreadcrumbItem,
-} from "@carbon/react";
+import { Grid, Column, Tag } from "@carbon/react";
 import { Link } from "react-router-dom";
 import SearchBox from "../components/SearchBox";
 
@@ -18,48 +12,42 @@ function highlight(text, query) {
   const re = new RegExp(`(${escapeRegExp(query.trim())})`, "gi");
   const parts = String(text).split(re);
   return parts.map((part, i) =>
-    re.test(part) ? (
-      <mark key={i}>{part}</mark>
-    ) : (
-      <React.Fragment key={i}>{part}</React.Fragment>
-    )
+    re.test(part) ? <mark key={i}>{part}</mark> : <React.Fragment key={i}>{part}</React.Fragment>
   );
 }
 
 export default function Glossary() {
   const [entries, setEntries] = useState([]);
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState("All"); // All | ML | Custom
+  const [category, setCategory] = useState("All"); // All | Machine learning | Research project | SQL
 
   useEffect(() => {
     Promise.all([
-      fetch("/glossary-of-research-terms/docs/index.json").then((r) =>
-        r.ok ? r.json() : []
-      ),
-      fetch("/glossary-of-research-terms/docs/custom.json").then((r) =>
-        r.ok ? r.json() : []
-      ),
-      fetch("/glossary-of-research-terms/docs/ml.json").then((r) =>
-        r.ok ? r.json() : []
-      ),
+      fetch("/glossary-of-research-terms/docs/index.json").then((r) => (r.ok ? r.json() : [])),
+      fetch("/glossary-of-research-terms/docs/custom.json").then((r) => (r.ok ? r.json() : [])),
+      fetch("/glossary-of-research-terms/docs/ml.json").then((r) => (r.ok ? r.json() : [])),
+      fetch("/glossary-of-research-terms/docs/sql.json").then((r) => (r.ok ? r.json() : [])), // NEW
     ])
-      .then(([official, custom, ml]) => {
+      .then(([official, custom, ml, sql]) => {
         const addMeta = (arr, kind) =>
           (arr || []).map((e) => ({
             ...e,
-            // kind: 'Index' | 'Research project' | 'Machine learning'
+            // kind label used by pills
             kind:
               kind === "index"
                 ? "Index"
                 : kind === "custom"
                 ? "Research project"
-                : "Machine learning",
+                : kind === "ml"
+                ? "Machine learning"
+                : "SQL", // NEW
           }));
 
         const combined = [
           ...addMeta(official, "index"),
           ...addMeta(custom, "custom"),
           ...addMeta(ml, "ml"),
+          ...addMeta(sql, "sql"), // NEW
         ];
 
         setEntries(combined);
@@ -73,26 +61,25 @@ export default function Glossary() {
   const searchFiltered = useMemo(() => {
     if (!query.trim()) return entries;
     const q = query.toLowerCase();
-    return entries.filter((e) =>
-      `${e.term} ${e.definition}`.toLowerCase().includes(q)
-    );
+    return entries.filter((e) => `${e.term} ${e.definition}`.toLowerCase().includes(q));
   }, [entries, query]);
+
+  // counts for category pills (respect current search)
+  const countsByKind = useMemo(() => {
+    const base = { All: searchFiltered.length, "Machine learning": 0, "Research project": 0, SQL: 0 }; // CHANGED
+    for (const e of searchFiltered) {
+      if (e.kind === "Machine learning") base["Machine learning"]++;
+      else if (e.kind === "Research project") base["Research project"]++;
+      else if (e.kind === "SQL") base["SQL"]++; // NEW
+    }
+    return base;
+  }, [searchFiltered]);
 
   // filter by category pill
   const filteredEntries = useMemo(() => {
     if (category === "All") return searchFiltered;
     return searchFiltered.filter((e) => e.kind === category);
   }, [searchFiltered, category]);
-
-  // counts for category pills (respect current search so counts feel responsive)
-  const countsByKind = useMemo(() => {
-    const base = { All: searchFiltered.length, "Machine learning": 0, "Research project": 0 };
-    for (const e of searchFiltered) {
-      if (e.kind === "Machine learning") base["Machine learning"]++;
-      else if (e.kind === "Research project") base["Research project"]++;
-    }
-    return base;
-  }, [searchFiltered]);
 
   // group by first letter (after all filtering)
   const grouped = useMemo(() => {
@@ -124,6 +111,7 @@ export default function Glossary() {
             { label: "All", key: "All" },
             { label: "Machine learning", key: "Machine learning" },
             { label: "Research project", key: "Research project" },
+            { label: "SQL", key: "SQL" }, // NEW
           ].map((p) => (
             <button
               key={p.key}
@@ -134,9 +122,7 @@ export default function Glossary() {
               aria-pressed={category === p.key}
             >
               {p.label}{" "}
-              <Tag type={category === p.key ? "purple" : "gray"}>
-                {countsByKind[p.key] ?? 0}
-              </Tag>
+              <Tag type={category === p.key ? "purple" : "gray"}>{countsByKind[p.key] ?? 0}</Tag>
             </button>
           ))}
         </div>
@@ -172,6 +158,11 @@ export default function Glossary() {
                         {e.kind === "Research project" && (
                           <Tag type="purple" style={{ marginLeft: "0.5rem" }}>
                             Research project
+                          </Tag>
+                        )}
+                        {e.kind === "SQL" && (
+                          <Tag type="blue" style={{ marginLeft: "0.5rem" }}>
+                            SQL
                           </Tag>
                         )}
                       </dt>
