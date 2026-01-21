@@ -113,8 +113,12 @@
     "source": "Digital Preservation Handbook – Persistent Identifiers section",
     "letter": "P"
   },
-  {
-    "term": "Checksum (SHA-256)",
+  {    "term": "Capta",
+    "definition": "a term coined by Johanna Drucker to emphasize that information is actively constructed and taken rather than passively given. Unlike 'data' (which implies pre-existing facts), 'capta' recognizes that all observations are shaped by interpretive frameworks, disciplinary perspectives, and the situated knowledge of the observer. This humanistic concept challenges positivist assumptions about objective measurement and highlights the constructed, contingent nature of knowledge production.",
+    "source": "Drucker, J. (2011) 'Humanities Approaches to Graphical Display', Digital Humanities Quarterly, 5(1)",
+    "letter": "C"
+  },
+  {    "term": "Checksum (SHA-256)",
     "definition": "a cryptographic hash value (using the SHA-256 algorithm) computed over a file or data object to serve as a ‘digital fingerprint’ so that any change to the bit-pattern will produce a different hash; used for integrity verification and fixity checking in digital preservation.",
     "source": "Digital Preservation Handbook – Fixity and Checksums; Digital preservation step-by-step",
     "letter": "C"

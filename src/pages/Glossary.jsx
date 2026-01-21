@@ -130,7 +130,7 @@ export default function Glossary() {
         {/* A–Z pills */}
         <div className="pill-row" style={{ marginTop: "0.75rem" }}>
           {letters.map((L) => (
-            <Link className="pill" key={L} to={`/letter/${L}`}>
+            <Link className="pill" key={L} to={`/letter/${L}${category !== "All" ? `?category=${encodeURIComponent(category)}` : ""}`}>
               {L} <Tag type="gray">{(grouped[L] || []).length}</Tag>
             </Link>
           ))}

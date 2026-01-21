@@ -1,6 +1,6 @@
 // src/pages/Letter.jsx
 import React, { useEffect, useMemo, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, useSearchParams, Link } from "react-router-dom";
 import { Grid, Column, Breadcrumb, BreadcrumbItem, Tag } from "@carbon/react";
 import SearchBox from "../components/SearchBox";
 
@@ -27,13 +27,14 @@ function tagTypeForKind(kind) {
 
 export default function Letter() {
   const { letter } = useParams();
+  const [searchParams] = useSearchParams();
   const [entries, setEntries] = useState([]);
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState("");
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState("All"); // "All" or any dataset title from index.json
+  const [category, setCategory] = useState(searchParams.get("category") || "All"); // Read from URL or default to "All"
 
-  // load datasets dynamically from index.json
+  // load datasets - same as Glossary.jsx
   useEffect(() => {
     let cancelled = false;
 
@@ -42,28 +43,37 @@ export default function Letter() {
       setErr("");
 
       try {
-        const idxRes = await fetch(`${BASE}/docs/index.json`);
-        const index = idxRes.ok ? await idxRes.json() : [];
-        if (cancelled) return;
-
-        const payloads = await Promise.all(
-          (index || []).map(async (d) => {
-            try {
-              const r = await fetch(`${BASE}${d.src}`);
-              const json = r.ok ? await r.json() : [];
-              // attach dataset title as kind
-              return json.map((e) => ({ ...e, kind: d.title || d.key || "Dataset" }));
-            } catch {
-              return [];
-            }
-          })
-        );
+        const [official, custom, ml, sql] = await Promise.all([
+          fetch(`${BASE}/docs/index.json`).then((r) => (r.ok ? r.json() : [])),
+          fetch(`${BASE}/docs/custom.json`).then((r) => (r.ok ? r.json() : [])),
+          fetch(`${BASE}/docs/ml.json`).then((r) => (r.ok ? r.json() : [])),
+          fetch(`${BASE}/docs/sql.json`).then((r) => (r.ok ? r.json() : [])),
+        ]);
 
         if (cancelled) return;
 
-        // merge and scope by letter immediately
-        const merged = payloads.flat();
-        const byLetter = merged.filter((e) => e.term?.[0]?.toUpperCase() === letter);
+        const addMeta = (arr, kind) =>
+          (arr || []).map((e) => ({
+            ...e,
+            kind:
+              kind === "index"
+                ? "Index"
+                : kind === "custom"
+                ? "Research project"
+                : kind === "ml"
+                ? "Machine learning"
+                : "SQL",
+          }));
+
+        const combined = [
+          ...addMeta(official, "index"),
+          ...addMeta(custom, "custom"),
+          ...addMeta(ml, "ml"),
+          ...addMeta(sql, "sql"),
+        ];
+
+        // filter by letter immediately
+        const byLetter = combined.filter((e) => e.term?.[0]?.toUpperCase() === letter);
         // sort stable by term
         byLetter.sort((a, b) => (a.term || "").localeCompare(b.term || "", undefined, { sensitivity: "base" }));
         setEntries(byLetter);
