@@ -102,6 +102,12 @@
     "letter": "C"
   },
   {
+    "term": "CLIP (Contrastive Language-Image Pre-training)",
+    "definition": "a neural network trained on a variety of (image, text) pairs to learn visual concepts from natural language supervision. clip can be applied to any visual classification task by providing the names of the visual categories without additional training.",
+    "source": "OpenAI—Learning Transferable Visual Models From Natural Language Supervision (2021)",
+    "letter": "C"
+  },
+  {
     "term": "Compute",
     "definition": "the computational power required for ai systems to perform tasks, such as processing data, training machine learning models, and making predictions — often measured in floating-point operations per second (flops).",
     "source": "The Alan Turing institute data science and AI glossary",
