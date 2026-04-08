@@ -1,0 +1,140 @@
+[
+  {
+    "term": "Accessioning",
+    "definition": "the process of formally receiving records into an archive and establishing initial physical and intellectual control over them.",
+    "source": "Kelvin Smith Library (University Archives Glossary)",
+    "letter": "A"
+  },
+  {
+    "term": "Appraisal",
+    "definition": "the process of evaluating records to determine their long-term value and whether they should be preserved or disposed of.",
+    "source": "ICA / ISAD(G) element context",
+    "letter": "A"
+  },
+  {
+    "term": "Archival description",
+    "definition": "the process of creating structured representations of archival materials, including cataloguing and the production of finding aids that explain context, scope, and access conditions.",
+    "source": "Library of Congress",
+    "letter": "A"
+  },
+  {
+    "term": "Collection",
+    "definition": "an aggregation of archival materials assembled by provenance or subject, often forming the highest level of description in archival hierarchies.",
+    "source": "Library of Congress",
+    "letter": "C"
+  },
+  {
+    "term": "Context (archival)",
+    "definition": "information describing the origins, creators, and circumstances of records, forming a core component of archival description standards such as ISAD(G).",
+    "source": "Society of American Archivists / ICA",
+    "letter": "C"
+  },
+  {
+    "term": "DACS (Describing Archives: A Content Standard)",
+    "definition": "a rules-based standard for describing archives and manuscripts, representing the US implementation of international standards such as ISAD(G) and ISAAR(CPF).",
+    "source": "Library of Congress",
+    "letter": "D"
+  },
+  {
+    "term": "EAC-CPF (Encoded Archival Context – Corporate Bodies, Persons and Families)",
+    "definition": "an XML schema used to encode contextual information about the creators of archival materials, including organisations, individuals, and families.",
+    "source": "Library of Congress / SAA",
+    "letter": "E"
+  },
+  {
+    "term": "EAD (Encoded Archival Description)",
+    "definition": "an XML-based standard for encoding archival finding aids, enabling structured, machine-readable descriptions of archival collections.",
+    "source": "Library of Congress",
+    "letter": "E"
+  },
+  {
+    "term": "Finding aid",
+    "definition": "a structured descriptive document (e.g. inventory or guide) providing information on the scope, content, and context of archival materials to support discovery and access.",
+    "source": "Library of Congress / ICA glossary",
+    "letter": "F"
+  },
+  {
+    "term": "Fonds",
+    "definition": "the whole of the records created and accumulated by a particular organisation, family, or individual, forming the highest level of archival description.",
+    "source": "ICA / ISAD(G) principles",
+    "letter": "F"
+  },
+  {
+    "term": "ISAD(G)",
+    "definition": "the General International Standard Archival Description, providing a framework of 26 elements across seven areas to enable consistent, multi-level description of archival materials.",
+    "source": "International Council on Archives (via SAA)",
+    "letter": "I"
+  },
+  {
+    "term": "ISAAR(CPF)",
+    "definition": "an international standard for describing archival authority records relating to corporate bodies, persons, and families associated with archival materials.",
+    "source": "Library of Congress / ICA",
+    "letter": "I"
+  },
+  {
+    "term": "Multilevel description",
+    "definition": "a hierarchical method of description moving from general (fonds) to specific (item), ensuring relationships between levels are maintained without duplication.",
+    "source": "ICA / ISAD(G)",
+    "letter": "M"
+  },
+  {
+    "term": "Original order",
+    "definition": "the practice of preserving records in the arrangement established by their creator, maintaining evidential context and relationships.",
+    "source": "Library and Archives Canada",
+    "letter": "O"
+  },
+  {
+    "term": "Preservation",
+    "definition": "the ongoing care and maintenance of archival materials through appropriate storage, handling, and environmental controls to ensure long-term accessibility.",
+    "source": "Kelvin Smith Library",
+    "letter": "P"
+  },
+  {
+    "term": "Provenance",
+    "definition": "the origin or source of records, including the creator and custodial history, forming the basis for archival arrangement and description.",
+    "source": "Kelvin Smith Library",
+    "letter": "P"
+  },
+  {
+    "term": "Record",
+    "definition": "recorded information created or received in the course of activity, possessing content, context, and structure sufficient to serve as evidence.",
+    "source": "Kelvin Smith Library",
+    "letter": "R"
+  },
+  {
+    "term": "Record group",
+    "definition": "a body of records created by a specific organisation or administrative unit, often used in governmental archival systems.",
+    "source": "Library and Archives Canada",
+    "letter": "R"
+  },
+  {
+    "term": "Respect des fonds",
+    "definition": "the rule that records from different creators must not be intermingled, maintaining the integrity of their provenance.",
+    "source": "Society of American Archivists (via glossary)",
+    "letter": "R"
+  },
+  {
+    "term": "Scope and content",
+    "definition": "a summary describing the subject matter, form, and arrangement of archival materials at a given level of description.",
+    "source": "ICA / ISAD(G)",
+    "letter": "S"
+  },
+  {
+    "term": "Series",
+    "definition": "a group of similar records within a fonds, typically organised by function, subject, or activity, forming a level within the archival hierarchy.",
+    "source": "Library and Archives Canada",
+    "letter": "S"
+  },
+  {
+    "term": "Transfer",
+    "definition": "the process by which records are moved from their creator to an archival repository, often as part of accessioning and custody management.",
+    "source": "Kelvin Smith Library",
+    "letter": "T"
+  },
+  {
+    "term": "Unit of description",
+    "definition": "any level within an archival hierarchy (fonds, series, file, item) that is described as part of a structured archival system.",
+    "source": "International Council on Archives",
+    "letter": "U"
+  }
+]

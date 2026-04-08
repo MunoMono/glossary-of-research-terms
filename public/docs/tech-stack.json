@@ -1,0 +1,212 @@
+[
+  {
+    "term": "Alembic",
+    "definition": "a lightweight database migration tool for usage with sqlalchemy, the python sql toolkit and object relational mapper. alembic provides for the creation, management, and invocation of change management scripts for a relational database, using sqlalchemy as the underlying engine.",
+    "source": "Alembic Official Documentation",
+    "letter": "A"
+  },
+  {
+    "term": "Auth0",
+    "definition": "an authentication and authorization platform that provides identity management services for applications. it supports social login, multi-factor authentication, single sign-on, and role-based access control through industry-standard protocols including oauth 2.0, openid connect, and saml.",
+    "source": "Auth0 Official Documentation",
+    "letter": "A"
+  },
+  {
+    "term": "AWS S3 (Amazon Simple Storage Service)",
+    "definition": "an object storage service offering industry-leading scalability, data availability, security, and performance. customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps.",
+    "source": "AWS Official Documentation",
+    "letter": "A"
+  },
+  {
+    "term": "boto3",
+    "definition": "the amazon web services (aws) software development kit (sdk) for python, which allows python developers to write software that makes use of services like amazon s3 and amazon ec2. boto3 provides object-oriented apis as well as low-level access to aws services.",
+    "source": "boto3 Official Documentation",
+    "letter": "B"
+  },
+  {
+    "term": "Carbon Design System",
+    "definition": "ibm's open source design system for products and digital experiences. with the ibm design language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors.",
+    "source": "Carbon Design System Official Documentation",
+    "letter": "C"
+  },
+  {
+    "term": "D3.js",
+    "definition": "a javascript library for producing dynamic, interactive data visualizations in web browsers. it makes use of scalable vector graphics (svg), html5, and cascading style sheets (css) standards. d3 emphasizes web standards and combines powerful visualization and interaction techniques with a data-driven approach to dom manipulation.",
+    "source": "D3.js Official Documentation",
+    "letter": "D"
+  },
+  {
+    "term": "DigitalOcean",
+    "definition": "a cloud infrastructure provider focused on simplifying web infrastructure for software developers. digitalocean provides developers cloud services that help to deploy and scale applications that run simultaneously on multiple computers, including compute, storage, and networking services.",
+    "source": "DigitalOcean Official Documentation",
+    "letter": "D"
+  },
+  {
+    "term": "DigitalOcean Spaces",
+    "definition": "an s3-compatible object storage service that lets you store and serve large amounts of data. each space is a bucket for you to store and serve files. spaces is designed to make scaling easy, so you can focus on your business.",
+    "source": "DigitalOcean Spaces Documentation",
+    "letter": "D"
+  },
+  {
+    "term": "Docker",
+    "definition": "a platform for developing, shipping, and running applications in containers. docker enables you to separate your applications from your infrastructure so you can deliver software quickly. containers are lightweight, standalone, executable packages that include everything needed to run an application: code, runtime, system tools, system libraries and settings.",
+    "source": "Docker Official Documentation",
+    "letter": "D"
+  },
+  {
+    "term": "Docling",
+    "definition": "a document understanding and conversion toolkit from ibm research that parses documents (pdf, docx, html) into a unified representation. it extracts layout, tables, figures, and text while preserving document structure for downstream processing in ai and machine learning pipelines.",
+    "source": "IBM Research Docling GitHub Repository",
+    "letter": "D"
+  },
+  {
+    "term": "FastAPI",
+    "definition": "a modern, fast (high-performance), web framework for building apis with python based on standard python type hints. fastapi is designed to be easy to use and learn while providing automatic interactive api documentation, data validation using pydantic, and async support.",
+    "source": "FastAPI Official Documentation",
+    "letter": "F"
+  },
+  {
+    "term": "Ghostscript",
+    "definition": "an interpreter for the postscript language and portable document format (pdf). it is primarily used for rasterizing pdf and postscript files to bitmap images, converting between different file formats, and rendering postscript and pdf files for viewing or printing.",
+    "source": "Ghostscript Official Documentation",
+    "letter": "G"
+  },
+  {
+    "term": "Hugging Face Transformers",
+    "definition": "a library providing thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio. these models can be applied on text for tasks like classification, information extraction, question answering, summarization, translation, and text generation in over 100 languages.",
+    "source": "Hugging Face Transformers Documentation",
+    "letter": "H"
+  },
+  {
+    "term": "IBM Granite",
+    "definition": "a family of open, performant, and trusted ai models designed for enterprise and scientific applications. granite models are trained on enterprise-relevant data and optimized for business use cases including code generation, time series analysis, and natural language processing with strong governance and transparency.",
+    "source": "IBM Granite Technical Documentation",
+    "letter": "I"
+  },
+  {
+    "term": "MinIO",
+    "definition": "a high-performance, s3-compatible object storage system. it is software-defined and runs on industry standard hardware. minio is designed for large-scale private cloud infrastructure and provides native support for kubernetes deployments with features like erasure coding and bitrot protection.",
+    "source": "MinIO Official Documentation",
+    "letter": "M"
+  },
+  {
+    "term": "Nginx",
+    "definition": "a web server that can also be used as a reverse proxy, load balancer, mail proxy and http cache. nginx is designed for maximum performance and stability, handling high concurrent connections with low memory usage. it can serve static content efficiently and act as a reverse proxy for dynamic content.",
+    "source": "Nginx Official Documentation",
+    "letter": "N"
+  },
+  {
+    "term": "pgvector",
+    "definition": "an open-source vector similarity search extension for postgresql. it provides vector data types, distance operators (l2, inner product, cosine), and indexing methods (ivfflat, hnsw) to enable efficient similarity search for machine learning applications like semantic search and recommendation systems.",
+    "source": "pgvector GitHub Repository",
+    "letter": "P"
+  },
+  {
+    "term": "Pillow",
+    "definition": "the python imaging library (pil fork) that adds image processing capabilities to your python interpreter. pillow supports opening, manipulating, and saving many different image file formats. it provides extensive file format support, efficient internal representation, and powerful image processing capabilities.",
+    "source": "Pillow Official Documentation",
+    "letter": "P"
+  },
+  {
+    "term": "Poppler",
+    "definition": "a pdf rendering library based on the xpdf-3.0 code base. it provides utilities for pdf manipulation and extraction including pdf to text conversion, pdf to image conversion, and pdf information extraction. poppler is widely used as a backend for pdf viewers and conversion tools.",
+    "source": "Poppler Official Documentation",
+    "letter": "P"
+  },
+  {
+    "term": "PostgreSQL",
+    "definition": "a powerful, open source object-relational database system that uses and extends the sql language combined with many features that safely store and scale the most complicated data workloads. postgresql has earned a strong reputation for its proven architecture, reliability, data integrity, robust feature set, and extensibility.",
+    "source": "PostgreSQL Official Documentation",
+    "letter": "P"
+  },
+  {
+    "term": "psycopg2",
+    "definition": "the most popular postgresql database adapter for the python programming language. it implements the db api 2.0 specification and provides both a pure python implementation and a c implementation for performance. psycopg2 supports connection pooling, asynchronous notifications, and server-side cursors.",
+    "source": "psycopg2 Official Documentation",
+    "letter": "P"
+  },
+  {
+    "term": "PyMuPDF",
+    "definition": "a python binding for mupdf, a lightweight pdf, xps, and e-book viewer and toolkit. pymupdf provides high-performance access to pdf documents with capabilities for text extraction, rendering to images, pdf creation and manipulation, and support for annotations and forms.",
+    "source": "PyMuPDF Official Documentation",
+    "letter": "P"
+  },
+  {
+    "term": "PyTorch",
+    "definition": "an open source machine learning framework that accelerates the path from research prototyping to production deployment. pytorch provides tensor computation with strong gpu acceleration and deep neural networks built on a tape-based autograd system, with native support for distributed training.",
+    "source": "PyTorch Official Documentation",
+    "letter": "P"
+  },
+  {
+    "term": "React",
+    "definition": "a javascript library for building user interfaces, maintained by meta and a community of individual developers and companies. react can be used to develop single-page, mobile, or server-rendered applications. it uses a declarative paradigm and component-based architecture to efficiently update and render the right components when data changes.",
+    "source": "React Official Documentation",
+    "letter": "R"
+  },
+  {
+    "term": "React Router",
+    "definition": "a collection of navigational components that compose declaratively with react applications. it enables client-side routing in react applications, allowing navigation between different views, url parameter handling, and nested routes while maintaining the single-page application experience.",
+    "source": "React Router Official Documentation",
+    "letter": "R"
+  },
+  {
+    "term": "rdflib",
+    "definition": "a pure python library for working with resource description framework (rdf) data. it contains parsers and serializers for rdf in various formats (xml, n3, turtle, nt, json-ld), a graph interface for working with rdf triples, and sparql query support for querying rdf data.",
+    "source": "rdflib Official Documentation",
+    "letter": "R"
+  },
+  {
+    "term": "Sass",
+    "definition": "syntactically awesome style sheets, a preprocessor scripting language that is interpreted or compiled into cascading style sheets (css). sass provides features not available in basic css including variables, nested rules, mixins, functions, and inheritance, making it easier to maintain large stylesheets.",
+    "source": "Sass Official Documentation",
+    "letter": "S"
+  },
+  {
+    "term": "sentence-transformers",
+    "definition": "a python framework for state-of-the-art sentence, text and image embeddings. it provides an easy method to compute dense vector representations for sentences, paragraphs, and images using transformer networks like bert, roberta, and xlm-roberta, optimized for tasks such as semantic search and clustering.",
+    "source": "Sentence-Transformers Official Documentation",
+    "letter": "S"
+  },
+  {
+    "term": "slowapi",
+    "definition": "a rate limiting library for fastapi and starlette, based on flask-limiter. it provides decorators to easily add rate limits to endpoints, supports multiple storage backends (in-memory, redis, memcached), and allows customizable rate limit strategies to protect apis from abuse.",
+    "source": "slowapi GitHub Repository",
+    "letter": "S"
+  },
+  {
+    "term": "SQLAlchemy",
+    "definition": "the python sql toolkit and object relational mapper that gives application developers the full power and flexibility of sql. it provides a full suite of enterprise-level persistence patterns designed for efficient and high-performing database access, adapted into a simple and pythonic domain language.",
+    "source": "SQLAlchemy Official Documentation",
+    "letter": "S"
+  },
+  {
+    "term": "Strawberry GraphQL",
+    "definition": "a python library for creating graphql apis using type hints and modern python features. strawberry provides automatic schema generation from python type annotations, built-in support for fastapi and other frameworks, and features like dataloaders, subscriptions, and file upload handling.",
+    "source": "Strawberry GraphQL Official Documentation",
+    "letter": "S"
+  },
+  {
+    "term": "SWC (Speedy Web Compiler)",
+    "definition": "a super-fast typescript/javascript compiler written in rust. swc is used for compilation and bundling in modern web development, offering features like typescript compilation, jsx transformation, and code minification. it is significantly faster than babel and is used by frameworks like next.js and vite.",
+    "source": "SWC Official Documentation",
+    "letter": "S"
+  },
+  {
+    "term": "Tesseract",
+    "definition": "an open source optical character recognition (ocr) engine developed by google. tesseract can read and recognize text in images and supports over 100 languages. it can handle various image formats and includes layout analysis capabilities to detect columns, paragraphs, and text regions.",
+    "source": "Tesseract OCR Official Documentation",
+    "letter": "T"
+  },
+  {
+    "term": "Uvicorn",
+    "definition": "a lightning-fast asynchronous server gateway interface (asgi) web server implementation for python, built on uvloop and httptools. uvicorn provides websocket support, serves asynchronous python web applications, and is commonly used to run fastapi and starlette applications in production.",
+    "source": "Uvicorn Official Documentation",
+    "letter": "U"
+  },
+  {
+    "term": "Vite",
+    "definition": "a build tool that provides a faster and leaner development experience for modern web projects. it consists of a dev server that serves source files over native es modules with rich built-in features and amazingly fast hot module replacement, and a build command that bundles code with rollup for production.",
+    "source": "Vite Official Documentation",
+    "letter": "V"
+  }
+]
