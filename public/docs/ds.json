@@ -1,0 +1,116 @@
+[
+  {
+    "term": "Categorical prediction",
+    "definition": "prediction task that assigns an input to one of a set of discrete categories or classes.",
+    "source": "IBM Think",
+    "letter": "C"
+  },
+  {
+    "term": "Clustering technique",
+    "definition": "unsupervised method that groups unlabeled observations into clusters based on similarity, proximity, or shared patterns.",
+    "source": "IBM Think",
+    "letter": "C"
+  },
+  {
+    "term": "Continuous prediction",
+    "definition": "prediction task that estimates a numeric, continuous output value such as price, temperature, duration, or quantity.",
+    "source": "IBM Think",
+    "letter": "C"
+  },
+  {
+    "term": "DBSCAN",
+    "definition": "density-based clustering algorithm that forms clusters from closely packed points and labels isolated low-density points as outliers or noise.",
+    "source": "IBM Think",
+    "letter": "D"
+  },
+  {
+    "term": "Dimensionality reduction",
+    "definition": "set of techniques that reduce the number of predictor variables while preserving essential structure or information in the data.",
+    "source": "IBM Think",
+    "letter": "D"
+  },
+  {
+    "term": "Gradient boosting",
+    "definition": "ensemble learning technique that builds models sequentially, with each new learner trained to correct errors made by the previous ones.",
+    "source": "IBM Think",
+    "letter": "G"
+  },
+  {
+    "term": "Hierarchical clustering",
+    "definition": "unsupervised clustering algorithm that organizes data into a tree of nested clusters, commonly through agglomerative or divisive merging and splitting.",
+    "source": "IBM Think",
+    "letter": "H"
+  },
+  {
+    "term": "K-means clustering",
+    "definition": "unsupervised clustering algorithm that partitions unlabeled data into K clusters by iteratively assigning points to cluster centroids and updating those centroids.",
+    "source": "IBM Think",
+    "letter": "K"
+  },
+  {
+    "term": "LASSO regression",
+    "definition": "regularized linear regression method that uses an L1 penalty to shrink coefficients and can reduce some coefficients to zero, simplifying the model by removing less useful variables.",
+    "source": "IBM Think",
+    "letter": "L"
+  },
+  {
+    "term": "Latent Dirichlet Allocation (LDA)",
+    "definition": "topic-modeling method that represents documents using latent topics, where each topic is characterized by keywords rather than explicit names or descriptions.",
+    "source": "Oracle",
+    "letter": "L"
+  },
+  {
+    "term": "Linear regression",
+    "definition": "regression method that models a dependent variable as a weighted combination of one or more input variables, producing a best-fit linear relationship for prediction.",
+    "source": "IBM Think",
+    "letter": "L"
+  },
+  {
+    "term": "Logistic regression",
+    "definition": "classification model that maps inputs to probabilities, often with an S-shaped logistic function, and uses those probabilities to assign categories such as yes/no outcomes.",
+    "source": "IBM Think",
+    "letter": "L"
+  },
+  {
+    "term": "Non-negative matrix factorisation (NMF)",
+    "definition": "feature-extraction and matrix-factorization method that decomposes a nonnegative data matrix into lower-rank nonnegative factors to uncover meaningful patterns, topics, or themes.",
+    "source": "Oracle",
+    "letter": "N"
+  },
+  {
+    "term": "Principal Component Analysis (PCA)",
+    "definition": "dimensionality reduction technique that transforms correlated variables into a smaller set of uncorrelated principal components that retain most of the original information.",
+    "source": "IBM Think",
+    "letter": "P"
+  },
+  {
+    "term": "Random forests",
+    "definition": "ensemble learning algorithm that combines the predictions of many decision trees to produce a single result for classification or regression.",
+    "source": "IBM Think",
+    "letter": "R"
+  },
+  {
+    "term": "Ridge regression",
+    "definition": "regularized linear regression method that shrinks coefficient magnitudes with an L2 penalty, reducing the influence of predictors without typically driving coefficients exactly to zero.",
+    "source": "IBM Think",
+    "letter": "R"
+  },
+  {
+    "term": "Supervised learning technique",
+    "definition": "machine learning approach that trains a model on labeled data so it learns patterns linking inputs to known outputs and can predict outputs for new data.",
+    "source": "IBM Think",
+    "letter": "S"
+  },
+  {
+    "term": "t-SNE",
+    "definition": "nonlinear dimensionality reduction algorithm used mainly for visualization in 2D or 3D, aiming to keep nearby points in high-dimensional space close together in the lower-dimensional map.",
+    "source": "IBM Think",
+    "letter": "T"
+  },
+  {
+    "term": "Unsupervised learning technique",
+    "definition": "machine learning approach that trains on unlabeled data to discover intrinsic patterns, structure, dependencies, or correlations without external ground-truth labels.",
+    "source": "IBM Think",
+    "letter": "U"
+  }
+]

@@ -19,16 +19,17 @@ function highlight(text, query) {
 export default function Glossary() {
   const [entries, setEntries] = useState([]);
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState("All"); // All | Machine learning | Research project | SQL
+  const [category, setCategory] = useState("All"); // All | Machine learning | Research project | SQL | Data science
 
   useEffect(() => {
     Promise.all([
       fetch("/glossary-of-research-terms/docs/index.json").then((r) => (r.ok ? r.json() : [])),
       fetch("/glossary-of-research-terms/docs/custom.json").then((r) => (r.ok ? r.json() : [])),
       fetch("/glossary-of-research-terms/docs/ml.json").then((r) => (r.ok ? r.json() : [])),
-      fetch("/glossary-of-research-terms/docs/sql.json").then((r) => (r.ok ? r.json() : [])), // NEW
+      fetch("/glossary-of-research-terms/docs/sql.json").then((r) => (r.ok ? r.json() : [])),
+      fetch("/glossary-of-research-terms/docs/ds.json").then((r) => (r.ok ? r.json() : [])),
     ])
-      .then(([official, custom, ml, sql]) => {
+      .then(([official, custom, ml, sql, ds]) => {
         const addMeta = (arr, kind) =>
           (arr || []).map((e) => ({
             ...e,
@@ -40,14 +41,17 @@ export default function Glossary() {
                 ? "Research project"
                 : kind === "ml"
                 ? "Machine learning"
-                : "SQL", // NEW
+                : kind === "ds"
+                ? "Data science"
+                : "SQL",
           }));
 
         const combined = [
           ...addMeta(official, "index"),
           ...addMeta(custom, "custom"),
           ...addMeta(ml, "ml"),
-          ...addMeta(sql, "sql"), // NEW
+          ...addMeta(sql, "sql"),
+          ...addMeta(ds, "ds"),
         ];
 
         setEntries(combined);
@@ -66,11 +70,12 @@ export default function Glossary() {
 
   // counts for category pills (respect current search)
   const countsByKind = useMemo(() => {
-    const base = { All: searchFiltered.length, "Machine learning": 0, "Research project": 0, SQL: 0 }; // CHANGED
+    const base = { All: searchFiltered.length, "Machine learning": 0, "Research project": 0, SQL: 0, "Data science": 0 };
     for (const e of searchFiltered) {
       if (e.kind === "Machine learning") base["Machine learning"]++;
       else if (e.kind === "Research project") base["Research project"]++;
-      else if (e.kind === "SQL") base["SQL"]++; // NEW
+      else if (e.kind === "SQL") base["SQL"]++;
+      else if (e.kind === "Data science") base["Data science"]++;
     }
     return base;
   }, [searchFiltered]);
@@ -111,7 +116,8 @@ export default function Glossary() {
             { label: "All", key: "All" },
             { label: "Machine learning", key: "Machine learning" },
             { label: "Research project", key: "Research project" },
-            { label: "SQL", key: "SQL" }, // NEW
+            { label: "SQL", key: "SQL" },
+            { label: "Data science", key: "Data science" },
           ].map((p) => (
             <button
               key={p.key}
@@ -163,6 +169,11 @@ export default function Glossary() {
                         {e.kind === "SQL" && (
                           <Tag type="blue" style={{ marginLeft: "0.5rem" }}>
                             SQL
+                          </Tag>
+                        )}
+                        {e.kind === "Data science" && (
+                          <Tag type="teal" style={{ marginLeft: "0.5rem" }}>
+                            Data science
                           </Tag>
                         )}
                       </dt>
