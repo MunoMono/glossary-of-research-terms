@@ -19,7 +19,7 @@ function highlight(text, query) {
 export default function Glossary() {
   const [entries, setEntries] = useState([]);
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState("All"); // All | Machine learning | Research project | SQL | Data science
+  const [category, setCategory] = useState("All"); // All | Machine learning | Research project | SQL | Technology stack | Archival practice | Data science
 
   useEffect(() => {
     Promise.all([
@@ -27,9 +27,11 @@ export default function Glossary() {
       fetch("/glossary-of-research-terms/docs/custom.json").then((r) => (r.ok ? r.json() : [])),
       fetch("/glossary-of-research-terms/docs/ml.json").then((r) => (r.ok ? r.json() : [])),
       fetch("/glossary-of-research-terms/docs/sql.json").then((r) => (r.ok ? r.json() : [])),
+      fetch("/glossary-of-research-terms/docs/tech-stack.json").then((r) => (r.ok ? r.json() : [])),
+      fetch("/glossary-of-research-terms/docs/archival-practice.json").then((r) => (r.ok ? r.json() : [])),
       fetch("/glossary-of-research-terms/docs/ds.json").then((r) => (r.ok ? r.json() : [])),
     ])
-      .then(([official, custom, ml, sql, ds]) => {
+      .then(([official, custom, ml, sql, techStack, archival, ds]) => {
         const addMeta = (arr, kind) =>
           (arr || []).map((e) => ({
             ...e,
@@ -41,9 +43,15 @@ export default function Glossary() {
                 ? "Research project"
                 : kind === "ml"
                 ? "Machine learning"
+                : kind === "sql"
+                ? "SQL"
+                : kind === "tech-stack"
+                ? "Technology stack"
+                : kind === "archival"
+                ? "Archival practice"
                 : kind === "ds"
                 ? "Data science"
-                : "SQL",
+                : kind,
           }));
 
         const combined = [
@@ -51,6 +59,8 @@ export default function Glossary() {
           ...addMeta(custom, "custom"),
           ...addMeta(ml, "ml"),
           ...addMeta(sql, "sql"),
+          ...addMeta(techStack, "tech-stack"),
+          ...addMeta(archival, "archival"),
           ...addMeta(ds, "ds"),
         ];
 
@@ -70,11 +80,13 @@ export default function Glossary() {
 
   // counts for category pills (respect current search)
   const countsByKind = useMemo(() => {
-    const base = { All: searchFiltered.length, "Machine learning": 0, "Research project": 0, SQL: 0, "Data science": 0 };
+    const base = { All: searchFiltered.length, "Machine learning": 0, "Research project": 0, SQL: 0, "Technology stack": 0, "Archival practice": 0, "Data science": 0 };
     for (const e of searchFiltered) {
       if (e.kind === "Machine learning") base["Machine learning"]++;
       else if (e.kind === "Research project") base["Research project"]++;
       else if (e.kind === "SQL") base["SQL"]++;
+      else if (e.kind === "Technology stack") base["Technology stack"]++;
+      else if (e.kind === "Archival practice") base["Archival practice"]++;
       else if (e.kind === "Data science") base["Data science"]++;
     }
     return base;
@@ -117,6 +129,8 @@ export default function Glossary() {
             { label: "Machine learning", key: "Machine learning" },
             { label: "Research project", key: "Research project" },
             { label: "SQL", key: "SQL" },
+            { label: "Technology stack", key: "Technology stack" },
+            { label: "Archival practice", key: "Archival practice" },
             { label: "Data science", key: "Data science" },
           ].map((p) => (
             <button
@@ -169,6 +183,16 @@ export default function Glossary() {
                         {e.kind === "SQL" && (
                           <Tag type="blue" style={{ marginLeft: "0.5rem" }}>
                             SQL
+                          </Tag>
+                        )}
+                        {e.kind === "Technology stack" && (
+                          <Tag type="teal" style={{ marginLeft: "0.5rem" }}>
+                            Technology stack
+                          </Tag>
+                        )}
+                        {e.kind === "Archival practice" && (
+                          <Tag type="coral" style={{ marginLeft: "0.5rem" }}>
+                            Archival practice
                           </Tag>
                         )}
                         {e.kind === "Data science" && (
