@@ -7,7 +7,7 @@
   },
   {
     "term": "Auth0",
-    "definition": "an authentication and authorization platform that provides identity management services for applications. it supports social login, multi-factor authentication, single sign-on, and role-based access control through industry-standard protocols including oauth 2.0, openid connect, and saml.",
+    "definition": "an authentication and authorisation platform that provides identity management services for applications. it supports social login, multi-factor authentication, single sign-on, and role-based access control through industry-standard protocols including oauth 2.0, openid connect, and saml.",
     "source": "Auth0 Official Documentation",
     "letter": "A"
   },
@@ -79,7 +79,7 @@
   },
   {
     "term": "IBM Granite",
-    "definition": "a family of open, performant, and trusted ai models designed for enterprise and scientific applications. granite models are trained on enterprise-relevant data and optimized for business use cases including code generation, time series analysis, and natural language processing with strong governance and transparency.",
+    "definition": "a family of open, performant, and trusted ai models designed for enterprise and scientific applications. granite models are trained on enterprise-relevant data and optimised for business use cases including code generation, time series analysis, and natural language processing with strong governance and transparency.",
     "source": "IBM Granite Technical Documentation",
     "letter": "I"
   },
@@ -163,7 +163,7 @@
   },
   {
     "term": "sentence-transformers",
-    "definition": "a python framework for state-of-the-art sentence, text and image embeddings. it provides an easy method to compute dense vector representations for sentences, paragraphs, and images using transformer networks like bert, roberta, and xlm-roberta, optimized for tasks such as semantic search and clustering.",
+    "definition": "a python framework for state-of-the-art sentence, text and image embeddings. it provides an easy method to compute dense vector representations for sentences, paragraphs, and images using transformer networks like bert, roberta, and xlm-roberta, optimised for tasks such as semantic search and clustering.",
     "source": "Sentence-Transformers Official Documentation",
     "letter": "S"
   },

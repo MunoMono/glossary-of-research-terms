@@ -19,7 +19,7 @@
   },
   {
     "term": "AI red teaming",
-    "definition": "structured, adversarial testing of models and systems to uncover unsafe behaviors and policy violations, often advocated alongside safe-harbor evaluation norms.",
+    "definition": "structured, adversarial testing of models and systems to uncover unsafe behaviours and policy violations, often advocated alongside safe-harbor evaluation norms.",
     "source": "ACM DL—Position: a safe harbor for AI evaluation and red teaming (2024)",
     "letter": "A"
   },
@@ -67,7 +67,7 @@
   },
   {
     "term": "Bias (ethics/fairness)",
-    "definition": "stereotyping, prejudice or favoritism towards some things, people, or groups over others. these biases can affect data collection, system design, and user interaction. another meaning is systematic error introduced by sampling or reporting procedures.",
+    "definition": "stereotyping, prejudice or favouritism towards some things, people, or groups over others. these biases can affect data collection, system design, and user interaction. another meaning is systematic error introduced by sampling or reporting procedures.",
     "source": "Google machine learning glossary",
     "letter": "B"
   },
@@ -193,13 +193,13 @@
   },
   {
     "term": "DPO (Direct Preference Optimization)",
-    "definition": "an alignment method that directly optimizes a policy using paired human preferences without an explicit reward model.",
+    "definition": "an alignment method that directly optimises a policy using paired human preferences without an explicit reward model.",
     "source": "ACM DL—Token-level DPO (2024); β-DPO (2025)",
     "letter": "D"
   },
   {
   "term": "Explainable AI (XAI)",
-  "definition": "methods and system properties that provide understandable explanations of an AI system’s outputs and behavior so that people can interpret results, appropriately trust them, and manage the system in context.",
+  "definition": "methods and system properties that provide understandable explanations of an AI system’s outputs and behaviour so that people can interpret results, appropriately trust them, and manage the system in context.",
   "source": "NIST IR 8312—Four Principles of Explainable Artificial Intelligence (2021); OECD AI Principles—Transparency and explainability",
   "letter": "E"
 },
@@ -367,7 +367,7 @@
   },
   {
     "term": "Prompt engineering",
-    "definition": "the practice of designing, iterating, and evaluating prompts to steer model behavior and improve reliability.",
+    "definition": "the practice of designing, iterating, and evaluating prompts to steer model behaviour and improve reliability.",
     "source": "ACM DL—From prompt engineering to prompt science with humans in the loop (2025)",
     "letter": "P"
   },
@@ -385,7 +385,7 @@
   },
   {
     "term": "Reinforcement learning from human feedback (RLHF)",
-    "definition": "an alignment and fine-tuning approach where human feedback (e.g., rankings or preferences over model outputs) is used to train a reward signal, and the model is then optimized with reinforcement learning to better match human preferences.",
+    "definition": "an alignment and fine-tuning approach where human feedback (e.g., rankings or preferences over model outputs) is used to train a reward signal, and the model is then optimised with reinforcement learning to better match human preferences.",
     "source": "OpenAI—Training language models to follow instructions with human feedback (Ouyang et al., 2022); NeurIPS—Deep reinforcement learning from human preferences (Christiano et al., 2017)",
     "letter": "R"
   },

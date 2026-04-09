@@ -37,7 +37,7 @@
   },
   {
     "term": "Hierarchical clustering",
-    "definition": "unsupervised clustering algorithm that organizes data into a tree of nested clusters, commonly through agglomerative or divisive merging and splitting.",
+    "definition": "unsupervised clustering algorithm that organises data into a tree of nested clusters, commonly through agglomerative or divisive merging and splitting.",
     "source": "IBM Think",
     "letter": "H"
   },
@@ -106,6 +106,12 @@
     "definition": "nonlinear dimensionality reduction algorithm used mainly for visualization in 2D or 3D, aiming to keep nearby points in high-dimensional space close together in the lower-dimensional map.",
     "source": "IBM Think",
     "letter": "T"
+  },
+  {
+    "term": "Uniform manifold approximation and projection (UMAP)",
+    "definition": "Nonlinear dimensionality reduction technique used for visualisation and general dimension reduction, mapping high-dimensional data into a lower-dimensional space while preserving important local structure.",
+    "source": "UMAP",
+    "letter": "U"
   },
   {
     "term": "Unsupervised learning technique",

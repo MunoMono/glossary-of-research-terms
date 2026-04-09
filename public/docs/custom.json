@@ -31,7 +31,7 @@
   },
   {
     "term": "Auth0",
-    "definition": "a cloud-based authentication and authorization service that issues secure JSON Web Tokens (JWTs) for identity verification and access control.",
+    "definition": "a cloud-based authentication and authorisation service that issues secure JSON Web Tokens (JWTs) for identity verification and access control.",
     "source": "Auth0 Documentation, https://auth0.com/docs",
     "letter": "A"
   },

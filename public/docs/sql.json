@@ -109,7 +109,7 @@
   },
   {
     "term": "Index types",
-    "definition": "available index methods (b-tree, hash, gist, sp-gist, gin, brin) optimized for different query patterns.",
+    "definition": "available index methods (b-tree, hash, gist, sp-gist, gin, brin) optimised for different query patterns.",
     "source": "PostgreSQL Documentation — Index Types",
     "letter": "I"
   },
@@ -127,7 +127,7 @@
   },
   {
     "term": "OLTP",
-    "definition": "workloads optimized for many small reads and writes with low latency.",
+    "definition": "workloads optimised for many small reads and writes with low latency.",
     "source": "Oracle Database Concepts — OLTP",
     "letter": "O"
   },
@@ -139,7 +139,7 @@
   },
   {
     "term": "EXPLAIN / Query plan",
-    "definition": "command that shows how the planner will execute a query; analyze adds timings.",
+    "definition": "command that shows how the planner will execute a query; analyse adds timings.",
     "source": "PostgreSQL Documentation — EXPLAIN",
     "letter": "E"
   },
@@ -169,7 +169,7 @@
   },
   {
     "term": "Consistency models",
-    "definition": "guarantees such as strong, eventual, and causal that describe read/write behavior in distributed databases.",
+    "definition": "guarantees such as strong, eventual, and causal that describe read/write behaviour in distributed databases.",
     "source": "ACM Queue — Eventually Consistent (Vogels)",
     "letter": "C"
   },
@@ -211,7 +211,7 @@
   },
   {
     "term": "Planner statistics",
-    "definition": "analyze-collected histograms and most-common values used by the cost-based optimizer.",
+    "definition": "analyse-collected histograms and most-common values used by the cost-based optimiser.",
     "source": "PostgreSQL Documentation — Statistics Used by the Planner",
     "letter": "P"
   },
@@ -223,7 +223,7 @@
   },
   {
     "term": "Roles",
-    "definition": "users and groups that own objects and hold privileges for authentication and authorization.",
+    "definition": "users and groups that own objects and hold privileges for authentication and authorisation.",
     "source": "PostgreSQL Documentation — Database Roles",
     "letter": "R"
   },
@@ -283,7 +283,7 @@
   },
   {
     "term": "Schemas / search_path",
-    "definition": "namespaces that organize objects; search_path sets name-resolution order.",
+    "definition": "namespaces that organise objects; search_path sets name-resolution order.",
     "source": "PostgreSQL Documentation — Schemas",
     "letter": "S"
   },
